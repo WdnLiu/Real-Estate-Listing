@@ -8,5 +8,5 @@ coverage/
 .DS_Store
 src/generated/
 client/dist/
-*.db
-*.db-journal
+test.db
+test.db-journal
