@@ -4,9 +4,10 @@ A full-stack property listings platform with AI-powered natural language search.
 
 ## Tech stack
 
-- **Backend** — Node.js, Express 5, Prisma 7, SQLite
+- **Backend** — Node.js, Express 5, Prisma 7, better-sqlite3
 - **Frontend** — React 18, Vite, TypeScript
 - **AI** — Google Gemini 2.5 Flash (SSE streaming)
+- **Validation** — Zod
 
 ## Quick start
 
