@@ -1,4 +1,4 @@
-import { buildSystemPrompt, parseFiltersFromResponse } from '../src/lib/searchPrompt';
+import { buildSystemPrompt, parseFiltersFromResponse } from '../../src/lib/searchPrompt';
 
 describe('buildSystemPrompt', () => {
   it('contains known city names from CITY_LOCATIONS', () => {

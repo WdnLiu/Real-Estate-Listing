@@ -7,8 +7,8 @@ import {
   createOffer,
   clearAll,
   disconnect,
-} from '../src/services/propertyRepository';
-import { ExtractedProperty } from '../src/models/Property';
+} from '../../src/services/propertyRepository';
+import { ExtractedProperty } from '../../src/models/Property';
 
 const BASE: ExtractedProperty = {
   listingType: 'rent',

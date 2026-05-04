@@ -1,8 +1,8 @@
-import { extract } from '../src/services/extractorService';
+import { extract } from '../../src/services/extractorService';
 
-jest.mock('../src/services/llmExtractorService');
+jest.mock('../../src/services/llmExtractorService');
 
-import { extractFromHtml, extractFromJson } from '../src/services/llmExtractorService';
+import { extractFromHtml, extractFromJson } from '../../src/services/llmExtractorService';
 
 const mockExtractHtml = extractFromHtml as jest.Mock;
 const mockExtractJson = extractFromJson as jest.Mock;

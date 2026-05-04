@@ -35,33 +35,6 @@ npm start
 - Client: http://localhost:5173
 - API: http://localhost:3000
 
-## Architecture
-
-```
-client/          React + Vite frontend
-src/
-  index.ts       Express API server
-  services/
-    llmExtractorService.ts   JSON or HTML → Gemini → ExtractedProperty (source-agnostic)
-    normalizerService.ts     Fast manual normalizer used by the seed script
-    extractorService.ts      Factory: detects input type, routes to the right extractor
-    propertyRepository.ts    Prisma queries, contact requests, offers
-  lib/
-    searchPrompt.ts          Gemini system prompt + filter parser for AI chat
-  scripts/
-    seedDb.ts                Reads results/raw/, normalizes, saves to DB
-    enrichData.ts            Adds synthetic fields to raw data files
-prisma/
-  schema.prisma              Property, Location, Image, ContactRequest, Offer models
-tests/
-  extractorService.test.ts      Factory routing (mocked extractors)
-  llmExtractorService.test.ts   HTML and JSON extraction with mocked Gemini
-  normalizerService.test.ts     Manual normalizer — Fotocasa and Idealista fixtures, normalizeAll batch
-  propertyRepository.test.ts    Integration tests against real SQLite (deduplication, filters, pagination)
-  searchPrompt.test.ts          Unit tests for prompt builder and filter parser
-  fixtures/                     Synthetic raw data (fotocasa_raw.json, listing_raw.html)
-```
-
 ## Data pipeline
 
 Raw listing data (JSON or HTML) enters through `extractorService.extract()`, which detects the format and routes it:

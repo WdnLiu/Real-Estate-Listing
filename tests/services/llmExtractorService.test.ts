@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-const html = readFileSync(join(__dirname, 'fixtures/listing_raw.html'), 'utf-8');
+const html = readFileSync(join(__dirname, '../fixtures/listing_raw.html'), 'utf-8');
 
 const mockGenerateContent = jest.fn();
 
@@ -15,7 +15,7 @@ jest.mock('@google/genai', () => ({
   },
 }));
 
-import { extractFromHtml, extractFromJson } from '../src/services/llmExtractorService';
+import { extractFromHtml, extractFromJson } from '../../src/services/llmExtractorService';
 
 const EXTRACTED_PROPERTY = {
   listingType: 'sale',

@@ -1,9 +1,9 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { normalizeProperty, normalizeAll } from '../src/services/normalizerService';
+import { normalizeProperty, normalizeAll } from '../../src/services/normalizerService';
 
 const fotocasaRaw = JSON.parse(
-  readFileSync(join(__dirname, 'fixtures/fotocasa_raw.json'), 'utf-8')
+  readFileSync(join(__dirname, '../fixtures/fotocasa_raw.json'), 'utf-8')
 );
 
 describe('normalizeProperty — Fotocasa JSON', () => {
