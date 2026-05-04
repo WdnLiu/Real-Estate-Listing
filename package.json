@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "tsx watch src/index.ts & npm run dev --prefix client",
+    "start": "concurrently \"tsx watch src/index.ts\" \"npm run dev --prefix client\"",
     "init": "prisma generate && prisma db push && tsx src/scripts/seedDb.ts",
     "format": "prettier --write .",
     "dev": "tsx watch src/index.ts",
@@ -31,6 +31,7 @@
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.6.0",
+    "concurrently": "^9.2.1",
     "dotenv": "^17.4.2",
     "jest": "^30.3.0",
     "prettier": "^3.8.3",
