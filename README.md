@@ -12,8 +12,6 @@ A full-stack property listings platform with AI-powered natural language search.
 
 ## Quick start
 
-The repository includes a pre-seeded SQLite database and sample raw data. Run `npm run init` once before starting to generate the Prisma client and push the schema.
-
 ### 1. Install dependencies
 
 ```bash
@@ -28,7 +26,15 @@ cp .env.example .env
 
 Fill in `GEMINI_API_KEY` in `.env`. This is required to use the AI chat search — the rest of the app works without it.
 
-### 3. Start
+### 3. Initialise
+
+```bash
+npm run init
+```
+
+Generates the Prisma client, pushes the schema to the database, and seeds it with sample data.
+
+### 4. Start
 
 ```bash
 npm start
