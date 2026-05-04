@@ -8,6 +8,7 @@ A full-stack property listings platform with AI-powered natural language search.
 - **Frontend** — React 18, Vite, TypeScript
 - **AI** — Google Gemini 2.5 Flash (SSE streaming)
 - **Validation** — Zod
+- **Testing** — Jest
 
 ## Quick start
 
