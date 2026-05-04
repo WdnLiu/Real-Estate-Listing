@@ -15,7 +15,8 @@ A full-stack property listings platform with AI-powered natural language search.
 ### 1. Install dependencies
 
 ```bash
-npm install && npm install --prefix client
+npm install
+npm install --prefix client
 ```
 
 ### 2. Configure environment
