@@ -137,7 +137,9 @@ export async function saveProperty(property: ExtractedProperty): Promise<boolean
   return true;
 }
 
-export async function saveProperties(properties: ExtractedProperty[]): Promise<{ saved: number; skipped: number }> {
+export async function saveProperties(
+  properties: ExtractedProperty[],
+): Promise<{ saved: number; skipped: number }> {
   let saved = 0;
   let skipped = 0;
   for (const property of properties) {

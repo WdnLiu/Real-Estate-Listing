@@ -18,9 +18,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 8,
-    "extras": [
-      "pool"
-    ]
+    "extras": ["pool"]
   },
   {
     "listingType": "sale",
@@ -41,9 +39,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 6,
-    "extras": [
-      "garden"
-    ]
+    "extras": ["garden"]
   },
   {
     "listingType": "sale",
@@ -84,9 +80,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "garden"
-    ]
+    "extras": ["garden"]
   },
   {
     "listingType": "sale",
@@ -106,10 +100,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 7,
-    "extras": [
-      "parking",
-      "terrace"
-    ]
+    "extras": ["parking", "terrace"]
   },
   {
     "listingType": "sale",
@@ -130,12 +121,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "parking",
-      "terrace",
-      "air conditioning",
-      "pool"
-    ]
+    "extras": ["parking", "terrace", "air conditioning", "pool"]
   },
   {
     "listingType": "sale",
@@ -176,11 +162,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "terrace",
-      "air conditioning",
-      "garden"
-    ]
+    "extras": ["terrace", "air conditioning", "garden"]
   },
   {
     "listingType": "sale",
@@ -201,10 +183,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 2,
-    "extras": [
-      "terrace",
-      "garden"
-    ]
+    "extras": ["terrace", "garden"]
   },
   {
     "listingType": "sale",
@@ -225,11 +204,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 2,
-    "extras": [
-      "elevator",
-      "storage unit",
-      "pool"
-    ]
+    "extras": ["elevator", "storage unit", "pool"]
   },
   {
     "listingType": "sale",
@@ -250,10 +225,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "pool",
-      "garden"
-    ]
+    "extras": ["pool", "garden"]
   },
   {
     "listingType": "sale",
@@ -274,10 +246,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "elevator",
-      "pool"
-    ]
+    "extras": ["elevator", "pool"]
   },
   {
     "listingType": "sale",
@@ -297,9 +266,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 6,
-    "extras": [
-      "storage unit"
-    ]
+    "extras": ["storage unit"]
   },
   {
     "listingType": "sale",
@@ -320,9 +287,7 @@
     "images": [],
     "bathrooms": 3,
     "floor": 5,
-    "extras": [
-      "air conditioning"
-    ]
+    "extras": ["air conditioning"]
   },
   {
     "listingType": "sale",
@@ -343,11 +308,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 6,
-    "extras": [
-      "parking",
-      "terrace",
-      "garden"
-    ]
+    "extras": ["parking", "terrace", "garden"]
   },
   {
     "listingType": "sale",
@@ -368,10 +329,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 2,
-    "extras": [
-      "parking",
-      "pool"
-    ]
+    "extras": ["parking", "pool"]
   },
   {
     "listingType": "sale",
@@ -392,11 +350,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 1,
-    "extras": [
-      "elevator",
-      "storage unit",
-      "pool"
-    ]
+    "extras": ["elevator", "storage unit", "pool"]
   },
   {
     "listingType": "sale",
@@ -416,10 +370,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 2,
-    "extras": [
-      "elevator",
-      "air conditioning"
-    ]
+    "extras": ["elevator", "air conditioning"]
   },
   {
     "listingType": "sale",
@@ -440,12 +391,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "storage unit",
-      "terrace",
-      "air conditioning",
-      "pool"
-    ]
+    "extras": ["storage unit", "terrace", "air conditioning", "pool"]
   },
   {
     "listingType": "sale",
@@ -466,9 +412,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 1,
-    "extras": [
-      "parking"
-    ]
+    "extras": ["parking"]
   },
   {
     "listingType": "sale",
@@ -488,11 +432,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 2,
-    "extras": [
-      "parking",
-      "storage unit",
-      "terrace"
-    ]
+    "extras": ["parking", "storage unit", "terrace"]
   },
   {
     "listingType": "sale",
@@ -513,12 +453,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "storage unit",
-      "air conditioning",
-      "pool",
-      "garden"
-    ]
+    "extras": ["storage unit", "air conditioning", "pool", "garden"]
   },
   {
     "listingType": "sale",
@@ -560,9 +495,7 @@
     "images": [],
     "bathrooms": 3,
     "floor": 0,
-    "extras": [
-      "storage unit"
-    ]
+    "extras": ["storage unit"]
   },
   {
     "listingType": "sale",
@@ -583,10 +516,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "parking",
-      "storage unit"
-    ]
+    "extras": ["parking", "storage unit"]
   },
   {
     "listingType": "sale",
@@ -607,9 +537,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "parking"
-    ]
+    "extras": ["parking"]
   },
   {
     "listingType": "sale",
@@ -630,11 +558,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 6,
-    "extras": [
-      "elevator",
-      "parking",
-      "air conditioning"
-    ]
+    "extras": ["elevator", "parking", "air conditioning"]
   },
   {
     "listingType": "sale",
@@ -654,12 +578,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 4,
-    "extras": [
-      "elevator",
-      "parking",
-      "terrace",
-      "air conditioning"
-    ]
+    "extras": ["elevator", "parking", "terrace", "air conditioning"]
   },
   {
     "listingType": "sale",
@@ -680,10 +599,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 1,
-    "extras": [
-      "parking",
-      "garden"
-    ]
+    "extras": ["parking", "garden"]
   },
   {
     "listingType": "sale",

@@ -6,7 +6,19 @@ interface Props {
 }
 
 export default function PropertyCard({ property, onSelect }: Props) {
-  const { id, title, price, currency, areaSqm, rooms, bathrooms, floor, location, description, images } = property;
+  const {
+    id,
+    title,
+    price,
+    currency,
+    areaSqm,
+    rooms,
+    bathrooms,
+    floor,
+    location,
+    description,
+    images,
+  } = property;
 
   const primaryImage = images.find((img) => img.isPrimary)?.url ?? images[0]?.url;
   const locationLabel = [location.neighborhood ?? location.district, location.city]
@@ -30,7 +42,9 @@ export default function PropertyCard({ property, onSelect }: Props) {
           {price.toLocaleString()} {currency}
         </p>
         <div className="card-meta">
-          <span>{rooms} bed · {bathrooms} bath</span>
+          <span>
+            {rooms} bed · {bathrooms} bath
+          </span>
           <span>{areaSqm} m²</span>
           {floor !== null && <span>Floor {floor}</span>}
         </div>

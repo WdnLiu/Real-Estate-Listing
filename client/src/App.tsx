@@ -54,16 +54,27 @@ export default function App() {
       ) : (
         <>
           <div className="tabs">
-            <button className={`tab ${tab === 'rent' ? 'active' : ''}`} onClick={() => setTab('rent')}>
+            <button
+              className={`tab ${tab === 'rent' ? 'active' : ''}`}
+              onClick={() => setTab('rent')}
+            >
               For Rent
             </button>
-            <button className={`tab ${tab === 'sale' ? 'active' : ''}`} onClick={() => setTab('sale')}>
+            <button
+              className={`tab ${tab === 'sale' ? 'active' : ''}`}
+              onClick={() => setTab('sale')}
+            >
               For Sale
             </button>
           </div>
           <AISearch listingType={tab} onFiltersApplied={mergeFilters} resultCount={resultCount} />
           <Filters filters={filters} onChange={setFilters} />
-          <PropertyList listingType={tab} filters={filters} onSelect={setSelectedId} onResultCount={setResultCount} />
+          <PropertyList
+            listingType={tab}
+            filters={filters}
+            onSelect={setSelectedId}
+            onResultCount={setResultCount}
+          />
         </>
       )}
     </div>

@@ -19,7 +19,9 @@ async function main(): Promise<void> {
       }
       const raws = JSON.parse(readFileSync(path, 'utf-8')) as unknown[];
       const { data, failures } = normalizeAll(raws);
-      console.log(`[${city}/${listingType}] ${data.length}/${raws.length} normalized (${failures} failed)`);
+      console.log(
+        `[${city}/${listingType}] ${data.length}/${raws.length} normalized (${failures} failed)`,
+      );
       const { saved, skipped } = await saveProperties(data);
       console.log(`[${city}/${listingType}] Saved: ${saved}, Skipped (duplicates): ${skipped}`);
     }

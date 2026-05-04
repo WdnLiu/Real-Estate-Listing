@@ -16,7 +16,10 @@ const PROPERTY_SCHEMA = {
     hasElevator: { type: Type.BOOLEAN },
     extras: {
       type: Type.ARRAY,
-      items: { type: Type.STRING, enum: ['parking', 'storage unit', 'terrace', 'air conditioning', 'pool', 'garden'] },
+      items: {
+        type: Type.STRING,
+        enum: ['parking', 'storage unit', 'terrace', 'air conditioning', 'pool', 'garden'],
+      },
     },
     location: {
       type: Type.OBJECT,
@@ -44,7 +47,7 @@ function stripNulls(obj: unknown): unknown {
     return Object.fromEntries(
       Object.entries(obj as Record<string, unknown>)
         .filter(([, v]) => v !== null)
-        .map(([k, v]) => [k, stripNulls(v)])
+        .map(([k, v]) => [k, stripNulls(v)]),
     );
   }
   return obj;

@@ -48,8 +48,19 @@ export default function OfferForm({ propertyId, askingPrice, currency }: Props) 
     <div className="form-box">
       <h3 className="form-title">Make an offer</h3>
       <form onSubmit={handleSubmit} className="form-fields">
-        <input required placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} />
-        <input required type="email" placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <input
+          required
+          placeholder="Your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          required
+          type="email"
+          placeholder="Email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <div className="form-offer-row">
           <input
             required
@@ -65,7 +76,12 @@ export default function OfferForm({ propertyId, askingPrice, currency }: Props) 
             </span>
           )}
         </div>
-        <textarea placeholder="Additional note (optional)" rows={2} value={note} onChange={(e) => setNote(e.target.value)} />
+        <textarea
+          placeholder="Additional note (optional)"
+          rows={2}
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+        />
         {error && <p className="ai-error">{error}</p>}
         <button type="submit" className="form-submit" disabled={loading}>
           {loading ? 'Submitting…' : 'Submit offer'}

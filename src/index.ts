@@ -1,7 +1,13 @@
 import 'dotenv/config';
 import express from 'express';
 import { GoogleGenAI } from '@google/genai';
-import { findProperties, findPropertyById, createContactRequest, createOffer, PropertyFilters } from './services/propertyRepository.js';
+import {
+  findProperties,
+  findPropertyById,
+  createContactRequest,
+  createOffer,
+  PropertyFilters,
+} from './services/propertyRepository.js';
 import { buildSystemPrompt, parseFiltersFromResponse, ChatMessage } from './lib/searchPrompt.js';
 
 const app = express();
@@ -21,10 +27,25 @@ function serializeExtras(row: Record<string, unknown>): Record<string, unknown> 
 }
 
 app.get('/api/properties', async (req, res) => {
-  const { listingType, city, district, neighborhood, minPrice, maxPrice, minRooms, minArea, hasElevator, extras, page, limit } = req.query;
+  const {
+    listingType,
+    city,
+    district,
+    neighborhood,
+    minPrice,
+    maxPrice,
+    minRooms,
+    minArea,
+    hasElevator,
+    extras,
+    page,
+    limit,
+  } = req.query;
 
   const districts = district ? (district as string).split(',').filter(Boolean) : undefined;
-  const neighborhoods = neighborhood ? (neighborhood as string).split(',').filter(Boolean) : undefined;
+  const neighborhoods = neighborhood
+    ? (neighborhood as string).split(',').filter(Boolean)
+    : undefined;
 
   const filters: PropertyFilters = {
     listingType: listingType as 'rent' | 'sale' | undefined,
@@ -56,7 +77,11 @@ app.get('/api/properties/:id', async (req, res) => {
 app.post('/api/properties/:id/contact', async (req, res) => {
   const propertyId = Number(req.params.id);
   const { name, email, type, message, visitDate } = req.body as {
-    name: string; email: string; type: 'info' | 'visit'; message?: string; visitDate?: string;
+    name: string;
+    email: string;
+    type: 'info' | 'visit';
+    message?: string;
+    visitDate?: string;
   };
 
   if (!name || !email || !type) {
@@ -71,7 +96,10 @@ app.post('/api/properties/:id/contact', async (req, res) => {
 app.post('/api/properties/:id/offers', async (req, res) => {
   const propertyId = Number(req.params.id);
   const { name, email, amount, note } = req.body as {
-    name: string; email: string; amount: number; note?: string;
+    name: string;
+    email: string;
+    amount: number;
+    note?: string;
   };
 
   if (!name || !email || !amount) {
@@ -84,7 +112,10 @@ app.post('/api/properties/:id/offers', async (req, res) => {
 });
 
 app.post('/api/search/ai', async (req, res) => {
-  const { messages, listingType } = req.body as { messages: ChatMessage[]; listingType: 'rent' | 'sale' };
+  const { messages, listingType } = req.body as {
+    messages: ChatMessage[];
+    listingType: 'rent' | 'sale';
+  };
 
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -92,7 +123,9 @@ app.post('/api/search/ai', async (req, res) => {
 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    res.write(`data: ${JSON.stringify({ type: 'error', content: 'AI search not configured.' })}\n\n`);
+    res.write(
+      `data: ${JSON.stringify({ type: 'error', content: 'AI search not configured.' })}\n\n`,
+    );
     res.end();
     return;
   }

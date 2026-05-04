@@ -19,8 +19,9 @@ export interface ChatMessage {
 
 function buildLocationContext(): string {
   return Object.entries(CITY_LOCATIONS)
-    .map(([city, { districts, neighborhoods }]) =>
-      `- ${city}: districts [${districts.join(', ')}], neighborhoods [${neighborhoods.join(', ')}]`
+    .map(
+      ([city, { districts, neighborhoods }]) =>
+        `- ${city}: districts [${districts.join(', ')}], neighborhoods [${neighborhoods.join(', ')}]`,
     )
     .join('\n');
 }
@@ -99,7 +100,8 @@ export function parseFiltersFromResponse(text: string): ParsedFilters {
 
     if (typeof raw.city === 'string') filters.city = raw.city;
     if (Array.isArray(raw.districts) && raw.districts.length > 0) filters.districts = raw.districts;
-    if (Array.isArray(raw.neighborhoods) && raw.neighborhoods.length > 0) filters.neighborhoods = raw.neighborhoods;
+    if (Array.isArray(raw.neighborhoods) && raw.neighborhoods.length > 0)
+      filters.neighborhoods = raw.neighborhoods;
     if (typeof raw.minPrice === 'number') filters.minPrice = raw.minPrice;
     if (typeof raw.maxPrice === 'number') filters.maxPrice = raw.maxPrice;
     if (typeof raw.minRooms === 'number') filters.minRooms = raw.minRooms;

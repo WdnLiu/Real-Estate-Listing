@@ -64,13 +64,13 @@ She then sets her constraints in the filter bar: minimum 2 rooms, minimum 60 m²
 
 Marc has just accepted a job near Atocha station in Madrid but doesn't know the city well enough to pick a district. He switches to the **For Sale** tab and types into the chat:
 
-> *"Looking for a spacious flat in Madrid, reasonable budget, first-time buyer"*
+> _"Looking for a spacious flat in Madrid, reasonable budget, first-time buyer"_
 
 The assistant responds explaining it is targeting larger properties within a mid-range budget, and sets `minArea = 80`, `maxPrice = 400,000`, `city = Madrid` — the listings grid filters automatically as the response streams in.
 
 Marc follows up:
 
-> *"I commute to Atocha so somewhere close would be ideal, and I need a parking spot"*
+> _"I commute to Atocha so somewhere close would be ideal, and I need a parking spot"_
 
 The assistant carries the budget and size constraints from the first message, resolves Atocha to the Arganzuela district, and adds `parking` to the extras filter — `districts = [Arganzuela]`, `extras = [parking]`, `maxPrice` unchanged at 400,000. Marc sees a focused set of results, clicks through to a listing, and submits an offer through the offer form.
 
@@ -80,11 +80,11 @@ In case there are no results, the chatbot will tell you.
 
 ## Available scripts
 
-| Script | Description |
-|---|---|
-| `npm start` | Start API and client concurrently |
-| `npm test` | Run test suite |
-| `npm run init` | Generate Prisma client, push schema, seed DB (only needed if starting fresh) |
-| `npm run dev` | Start API server only (watch mode) |
-| `npm run db:seed` | Re-seed the database from results/raw/ |
-| `npm run format` | Format all files with Prettier |
+| Script            | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| `npm start`       | Start API and client concurrently                                            |
+| `npm test`        | Run test suite                                                               |
+| `npm run init`    | Generate Prisma client, push schema, seed DB (only needed if starting fresh) |
+| `npm run dev`     | Start API server only (watch mode)                                           |
+| `npm run db:seed` | Re-seed the database from results/raw/                                       |
+| `npm run format`  | Format all files with Prettier                                               |

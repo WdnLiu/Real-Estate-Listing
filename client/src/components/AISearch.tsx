@@ -35,7 +35,11 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
       pendingResultCheck.current = false;
       setMessages((prev) => [
         ...prev,
-        { role: 'assistant', content: "I couldn't find any properties matching those criteria. Try adjusting the price range, location, or removing some filters." },
+        {
+          role: 'assistant',
+          content:
+            "I couldn't find any properties matching those criteria. Try adjusting the price range, location, or removing some filters.",
+        },
       ]);
     } else {
       pendingResultCheck.current = false;
@@ -55,7 +59,7 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
     setStreaming(true);
 
     const history = nextMessages.map((m) => ({
-      role: m.role === 'user' ? 'user' : 'model' as 'user' | 'model',
+      role: m.role === 'user' ? 'user' : ('model' as 'user' | 'model'),
       content: m.content,
     }));
 
@@ -92,10 +96,7 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
           if (event.type === 'text') {
             accumulated += event.content as string;
             const visible = stripFilters(accumulated);
-            setMessages((prev) => [
-              ...prev.slice(0, -1),
-              { role: 'assistant', content: visible },
-            ]);
+            setMessages((prev) => [...prev.slice(0, -1), { role: 'assistant', content: visible }]);
           } else if (event.type === 'filters') {
             const f = event.content as Record<string, unknown>;
             const merged: Partial<FilterState> = {};
@@ -107,7 +108,8 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
             if (typeof f.minRooms === 'number') merged.minRooms = String(f.minRooms);
             if (typeof f.minArea === 'number') merged.minArea = String(f.minArea);
             if (f.hasElevator === true) merged.hasElevator = true;
-            if (Array.isArray(f.selectedExtras)) merged.selectedExtras = f.selectedExtras as string[];
+            if (Array.isArray(f.selectedExtras))
+              merged.selectedExtras = f.selectedExtras as string[];
             onFiltersApplied(merged);
             pendingResultCheck.current = true;
           } else if (event.type === 'error') {
@@ -129,10 +131,13 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
       {messages.length === 0 ? (
         <p className="ai-chat-empty">
           Ask anything — "cheap 2-bed near Gràcia", "spacious flat with parking in Madrid"…
-          <br /><br />
+          <br />
+          <br />
           <span className="ai-chat-hint">
-            You are currently searching <strong>{listingType === 'rent' ? 'rentals' : 'properties for sale'}</strong>.
-            Switch to the <strong>{listingType === 'rent' ? 'For Sale' : 'For Rent'}</strong> tab to search for {listingType === 'rent' ? 'properties to buy' : 'properties to rent'}.
+            You are currently searching{' '}
+            <strong>{listingType === 'rent' ? 'rentals' : 'properties for sale'}</strong>. Switch to
+            the <strong>{listingType === 'rent' ? 'For Sale' : 'For Rent'}</strong> tab to search
+            for {listingType === 'rent' ? 'properties to buy' : 'properties to rent'}.
           </span>
         </p>
       ) : (
@@ -153,7 +158,9 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
         <input
           ref={inputRef}
           className="ai-search-input"
-          placeholder={streaming ? 'Waiting for response…' : 'Refine your search or ask a follow-up…'}
+          placeholder={
+            streaming ? 'Waiting for response…' : 'Refine your search or ask a follow-up…'
+          }
           value={input}
           onChange={(e) => setInput(e.target.value)}
           disabled={streaming}

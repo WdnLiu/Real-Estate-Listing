@@ -59,18 +59,9 @@
     "updated": "15 March",
     "description": "Acogedor piso.",
     "features": {
-      "Basic features": [
-        "70 m² built",
-        "2 bedrooms",
-        "1 bathroom",
-        "7th floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Terrace"
-      ]
+      "Basic features": ["70 m² built", "2 bedrooms", "1 bathroom", "7th floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Terrace"]
     },
     "images": {},
     "plans": [],
@@ -143,19 +134,9 @@
     "updated": "14 March",
     "description": null,
     "features": {
-      "Basic features": [
-        "55 m² built",
-        "1 bedroom",
-        "1 bathroom",
-        "2nd floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Storage room",
-        "Private garden"
-      ]
+      "Basic features": ["55 m² built", "1 bedroom", "1 bathroom", "2nd floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Storage room", "Private garden"]
     },
     "images": {},
     "contactInfo": null,
@@ -218,19 +199,9 @@
     "updated": "12 March",
     "description": "Cerca del mar.",
     "features": {
-      "Basic features": [
-        "80 m² built",
-        "3 bedrooms",
-        "1 bathroom",
-        "5th floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Air conditioning",
-        "Swimming pool"
-      ]
+      "Basic features": ["80 m² built", "3 bedrooms", "1 bathroom", "5th floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Air conditioning", "Swimming pool"]
     },
     "images": {},
     "plans": [],
@@ -301,18 +272,9 @@
     "updated": "10 March",
     "description": "Junto al estadio.",
     "features": {
-      "Basic features": [
-        "85 m² built",
-        "2 bedrooms",
-        "2 bathrooms",
-        "3rd floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Air conditioning"
-      ]
+      "Basic features": ["85 m² built", "2 bedrooms", "2 bathrooms", "3rd floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Air conditioning"]
     },
     "images": {},
     "plans": [],
@@ -381,18 +343,9 @@
     "updated": "9 March",
     "description": "Reformado.",
     "features": {
-      "Basic features": [
-        "65 m² built",
-        "2 bedrooms",
-        "1 bathroom",
-        "Ground floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Terrace"
-      ]
+      "Basic features": ["65 m² built", "2 bedrooms", "1 bathroom", "Ground floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Terrace"]
     },
     "images": {},
     "plans": [],
@@ -465,19 +418,9 @@
     "updated": "8 March",
     "description": "Vistas despejadas.",
     "features": {
-      "Basic features": [
-        "60 m² built",
-        "1 bedroom",
-        "1 bathroom",
-        "6th floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Storage room",
-        "Private garden"
-      ]
+      "Basic features": ["60 m² built", "1 bedroom", "1 bathroom", "6th floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Storage room", "Private garden"]
     },
     "images": {},
     "plans": [],
@@ -549,18 +492,9 @@
     "updated": "7 March",
     "description": "Ideal parejas.",
     "features": {
-      "Basic features": [
-        "50 m² built",
-        "2 bedrooms",
-        "2 bathrooms",
-        "6th floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Air conditioning"
-      ]
+      "Basic features": ["50 m² built", "2 bedrooms", "2 bathrooms", "6th floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Air conditioning"]
     },
     "images": {},
     "plans": [],
@@ -631,19 +565,9 @@
     "updated": "6 March",
     "description": "Cerca de la playa.",
     "features": {
-      "Basic features": [
-        "85 m² built",
-        "2 bedrooms",
-        "1 bathroom",
-        "Ground floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Air conditioning",
-        "Terrace"
-      ]
+      "Basic features": ["85 m² built", "2 bedrooms", "1 bathroom", "Ground floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Air conditioning", "Terrace"]
     },
     "images": {},
     "plans": [],
@@ -714,19 +638,9 @@
     "updated": "5 March",
     "description": "Reformado a estrenar.",
     "features": {
-      "Basic features": [
-        "90 m² built",
-        "3 bedrooms",
-        "2 bathrooms",
-        "Ground floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Storage room",
-        "Private garden"
-      ]
+      "Basic features": ["90 m² built", "3 bedrooms", "2 bathrooms", "Ground floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Storage room", "Private garden"]
     },
     "images": {},
     "plans": [],
@@ -796,18 +710,9 @@
     "updated": "4 March",
     "description": "Todo exterior.",
     "features": {
-      "Basic features": [
-        "75 m² built",
-        "3 bedrooms",
-        "1 bathroom",
-        "7th floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Swimming pool"
-      ]
+      "Basic features": ["75 m² built", "3 bedrooms", "1 bathroom", "7th floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Swimming pool"]
     },
     "images": {},
     "plans": [],
@@ -874,19 +779,9 @@
     "updated": "3 March",
     "description": "Amueblado.",
     "features": {
-      "Basic features": [
-        "65 m² built",
-        "2 bedrooms",
-        "2 bathrooms",
-        "Ground floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Fitted wardrobes",
-        "Air conditioning"
-      ]
+      "Basic features": ["65 m² built", "2 bedrooms", "2 bathrooms", "Ground floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Fitted wardrobes", "Air conditioning"]
     },
     "images": {},
     "plans": [],
@@ -959,18 +854,9 @@
     "updated": "2 March",
     "description": "Pequeño pero acogedor.",
     "features": {
-      "Basic features": [
-        "30 m² built",
-        "1 bedroom",
-        "1 bathroom",
-        "5th floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Terrace"
-      ]
+      "Basic features": ["30 m² built", "1 bedroom", "1 bathroom", "5th floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Terrace"]
     },
     "images": {},
     "plans": [],
@@ -1041,20 +927,9 @@
     "updated": "1 March",
     "description": "Poblenou moderno.",
     "features": {
-      "Basic features": [
-        "90 m² built",
-        "3 bedrooms",
-        "2 bathrooms",
-        "7th floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Air conditioning",
-        "Storage room",
-        "Private garden"
-      ]
+      "Basic features": ["90 m² built", "3 bedrooms", "2 bathrooms", "7th floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Air conditioning", "Storage room", "Private garden"]
     },
     "images": {},
     "plans": [],
@@ -1125,18 +1000,9 @@
     "updated": "28 Feb",
     "description": "Zona inmejorable.",
     "features": {
-      "Basic features": [
-        "95 m² built",
-        "3 bedrooms",
-        "1 bathroom",
-        "Ground floor"
-      ],
-      "Building": [
-        "With lift"
-      ],
-      "Amenities": [
-        "Swimming pool"
-      ]
+      "Basic features": ["95 m² built", "3 bedrooms", "1 bathroom", "Ground floor"],
+      "Building": ["With lift"],
+      "Amenities": ["Swimming pool"]
     },
     "images": {},
     "plans": [],
@@ -1206,18 +1072,9 @@
     "updated": "27 Feb",
     "description": "Cerca metro.",
     "features": {
-      "Basic features": [
-        "80 m² built",
-        "3 bedrooms",
-        "2 bathrooms",
-        "6th floor"
-      ],
-      "Building": [
-        "exterior"
-      ],
-      "Amenities": [
-        "Air conditioning"
-      ]
+      "Basic features": ["80 m² built", "3 bedrooms", "2 bathrooms", "6th floor"],
+      "Building": ["exterior"],
+      "Amenities": ["Air conditioning"]
     },
     "images": {},
     "plans": [],

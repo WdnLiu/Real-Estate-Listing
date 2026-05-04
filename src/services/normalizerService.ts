@@ -99,7 +99,8 @@ function normalizeFotocasa(raw: RawRecord): Partial<ExtractedProperty> {
     description: typeof raw.description === 'string' ? raw.description : '',
     listingUrl: typeof detail?.url === 'string' ? detail.url : undefined,
     contactPhone: typeof raw.phone === 'string' ? raw.phone : undefined,
-    images: extractFotocasaImages(raw).length > 0 ? extractFotocasaImages(raw) : pickRandomImages(2),
+    images:
+      extractFotocasaImages(raw).length > 0 ? extractFotocasaImages(raw) : pickRandomImages(2),
   };
 }
 
@@ -111,15 +112,21 @@ function extractIdealistaLocation(raw: RawRecord): Location {
     city: city || '',
     district: district || undefined,
     neighborhood: typeof raw.neighborhood === 'string' ? raw.neighborhood : undefined,
-    address: typeof raw.address === 'string'
-      ? raw.address
-      : typeof (raw.address as RawRecord)?.name === 'string'
-        ? (raw.address as RawRecord).name as string
-        : '',
+    address:
+      typeof raw.address === 'string'
+        ? raw.address
+        : typeof (raw.address as RawRecord)?.name === 'string'
+          ? ((raw.address as RawRecord).name as string)
+          : '',
   };
 }
 
-function extractIdealistaExtrasAndFloor(raw: RawRecord): { extras: string[]; floor: number | undefined; bathrooms: number; hasElevator: boolean } {
+function extractIdealistaExtrasAndFloor(raw: RawRecord): {
+  extras: string[];
+  floor: number | undefined;
+  bathrooms: number;
+  hasElevator: boolean;
+} {
   const features = raw.features as Record<string, string[]> | undefined;
   const basics = features?.['Basic features'] ?? [];
   const amenities = features?.['Amenities'] ?? [];
@@ -136,10 +143,14 @@ function extractIdealistaExtrasAndFloor(raw: RawRecord): { extras: string[]; flo
 
   const floorStr = basics.find((s) => s.toLowerCase().includes('floor'));
   const floorMatch = floorStr?.match(/(\d+)/);
-  const floor = floorMatch ? parseInt(floorMatch[1], 10) : (floorStr?.toLowerCase().includes('ground') ? 0 : undefined);
+  const floor = floorMatch
+    ? parseInt(floorMatch[1], 10)
+    : floorStr?.toLowerCase().includes('ground')
+      ? 0
+      : undefined;
 
   const bathStr = basics.find((s) => s.includes('bathroom'));
-  const bathrooms = bathStr ? (parseInt(bathStr.match(/\d+/)?.[0] ?? '1', 10)) : 1;
+  const bathrooms = bathStr ? parseInt(bathStr.match(/\d+/)?.[0] ?? '1', 10) : 1;
 
   return { extras, floor, bathrooms, hasElevator };
 }
@@ -147,7 +158,9 @@ function extractIdealistaExtrasAndFloor(raw: RawRecord): { extras: string[]; flo
 function extractIdealistaImages(raw: RawRecord): string[] {
   const imagesObj = raw.images as Record<string, string[]> | undefined;
   if (!imagesObj) return [];
-  return Object.values(imagesObj).flat().filter((u): u is string => typeof u === 'string');
+  return Object.values(imagesObj)
+    .flat()
+    .filter((u): u is string => typeof u === 'string');
 }
 
 function extractIdealistaAreaAndRooms(raw: RawRecord): { areaSqm: number; rooms: number } {
@@ -179,8 +192,10 @@ function normalizeIdealista(raw: RawRecord): Partial<ExtractedProperty> {
     location: extractIdealistaLocation(raw),
     description: typeof raw.description === 'string' ? raw.description : '',
     listingUrl: typeof raw.url === 'string' ? raw.url : undefined,
-    contactPhone: typeof contactInfo?.contactPhone === 'string' ? contactInfo.contactPhone : undefined,
-    images: extractIdealistaImages(raw).length > 0 ? extractIdealistaImages(raw) : pickRandomImages(2),
+    contactPhone:
+      typeof contactInfo?.contactPhone === 'string' ? contactInfo.contactPhone : undefined,
+    images:
+      extractIdealistaImages(raw).length > 0 ? extractIdealistaImages(raw) : pickRandomImages(2),
   };
 }
 
@@ -188,7 +203,9 @@ export function normalizeProperty(raw: unknown): ExtractedProperty | null {
   if (!raw || typeof raw !== 'object') return null;
 
   const record = raw as RawRecord;
-  const partial = isFotocasaPayload(record) ? normalizeFotocasa(record) : normalizeIdealista(record);
+  const partial = isFotocasaPayload(record)
+    ? normalizeFotocasa(record)
+    : normalizeIdealista(record);
 
   const result = ExtractedPropertySchema.safeParse(partial);
   return result.success ? result.data : null;

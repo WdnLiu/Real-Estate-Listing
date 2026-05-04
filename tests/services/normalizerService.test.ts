@@ -3,7 +3,7 @@ import { join } from 'path';
 import { normalizeProperty, normalizeAll } from '../../src/services/normalizerService';
 
 const fotocasaRaw = JSON.parse(
-  readFileSync(join(__dirname, '../fixtures/fotocasa_raw.json'), 'utf-8')
+  readFileSync(join(__dirname, '../fixtures/fotocasa_raw.json'), 'utf-8'),
 );
 
 describe('normalizeProperty — Fotocasa JSON', () => {
@@ -85,8 +85,8 @@ const IDEALISTA_FIXTURE = {
   address: { name: 'Carrer de Verdi, 10' },
   features: {
     'Basic features': ['75 m² built', '2 bedrooms', '1 bathroom', '3rd floor'],
-    'Building': ['With lift'],
-    'Amenities': ['Parking space'],
+    Building: ['With lift'],
+    Amenities: ['Parking space'],
   },
   description: 'Piso luminoso.',
   images: {},
@@ -144,11 +144,7 @@ describe('normalizeProperty — Idealista JSON', () => {
 
 describe('normalizeAll', () => {
   it('returns correct data and failure counts', () => {
-    const { data, failures } = normalizeAll([
-      IDEALISTA_FIXTURE,
-      fotocasaRaw,
-      {},
-    ]);
+    const { data, failures } = normalizeAll([IDEALISTA_FIXTURE, fotocasaRaw, {}]);
     expect(data).toHaveLength(2);
     expect(failures).toBe(1);
   });

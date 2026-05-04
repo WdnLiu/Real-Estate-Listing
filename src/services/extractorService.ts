@@ -12,7 +12,9 @@ export async function extract(input: unknown): Promise<ExtractedProperty | null>
   return extractFromJson(input);
 }
 
-export async function extractAll(inputs: unknown[]): Promise<{ data: ExtractedProperty[]; failures: number }> {
+export async function extractAll(
+  inputs: unknown[],
+): Promise<{ data: ExtractedProperty[]; failures: number }> {
   const results = await Promise.allSettled(inputs.map(extract));
   const data: ExtractedProperty[] = [];
   let failures = 0;

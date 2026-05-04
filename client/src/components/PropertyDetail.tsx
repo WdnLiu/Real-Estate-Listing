@@ -24,7 +24,22 @@ export default function PropertyDetail({ id, onBack }: Props) {
   if (loading) return <p className="empty">Loading…</p>;
   if (error || !property) return <p className="empty">{error}</p>;
 
-  const { title, price, currency, areaSqm, rooms, bathrooms, floor, hasElevator, extras, location, description, images, listingUrl, contactPhone } = property;
+  const {
+    title,
+    price,
+    currency,
+    areaSqm,
+    rooms,
+    bathrooms,
+    floor,
+    hasElevator,
+    extras,
+    location,
+    description,
+    images,
+    listingUrl,
+    contactPhone,
+  } = property;
 
   return (
     <div className="detail">
@@ -51,23 +66,33 @@ export default function PropertyDetail({ id, onBack }: Props) {
           {price.toLocaleString()} {currency}
         </p>
         <div className="card-meta">
-          <span>{rooms} bed · {bathrooms} bath</span>
+          <span>
+            {rooms} bed · {bathrooms} bath
+          </span>
           <span>{areaSqm} m²</span>
           {floor !== null && <span>Floor {floor}</span>}
         </div>
         <div className="detail-extras">
-          <span className={`detail-extra-tag ${hasElevator ? 'detail-extra-yes' : 'detail-extra-no'}`}>
+          <span
+            className={`detail-extra-tag ${hasElevator ? 'detail-extra-yes' : 'detail-extra-no'}`}
+          >
             {hasElevator ? 'Elevator' : 'No elevator'}
           </span>
           {extras.map((e) => (
-            <span key={e} className="detail-extra-tag">{e}</span>
+            <span key={e} className="detail-extra-tag">
+              {e}
+            </span>
           ))}
         </div>
         <p className="detail-description">{description}</p>
         <div className="card-actions">
           {contactPhone && <a href={`tel:${contactPhone}`}>{contactPhone}</a>}
           {listingUrl && (
-            <a href={listingUrl.startsWith('http') ? listingUrl : `https://${listingUrl}`} target="_blank" rel="noreferrer">
+            <a
+              href={listingUrl.startsWith('http') ? listingUrl : `https://${listingUrl}`}
+              target="_blank"
+              rel="noreferrer"
+            >
               View original listing ↗
             </a>
           )}

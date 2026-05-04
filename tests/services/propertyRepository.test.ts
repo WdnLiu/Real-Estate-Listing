@@ -21,7 +21,12 @@ const BASE: ExtractedProperty = {
   floor: 3,
   hasElevator: true,
   extras: ['parking'],
-  location: { city: 'Barcelona', district: 'Eixample', neighborhood: 'La Sagrada Família', address: 'Carrer de Mallorca, 10' },
+  location: {
+    city: 'Barcelona',
+    district: 'Eixample',
+    neighborhood: 'La Sagrada Família',
+    address: 'Carrer de Mallorca, 10',
+  },
   description: 'A nice flat.',
   images: [],
 };
@@ -30,8 +35,12 @@ function make(overrides: Partial<ExtractedProperty> = {}): ExtractedProperty {
   return { ...BASE, ...overrides };
 }
 
-beforeEach(async () => { await clearAll(); });
-afterAll(async () => { await disconnect(); });
+beforeEach(async () => {
+  await clearAll();
+});
+afterAll(async () => {
+  await disconnect();
+});
 
 describe('saveProperty — deduplication', () => {
   it('saves a new property and returns true', async () => {
@@ -74,9 +83,33 @@ describe('saveProperties — batch', () => {
 describe('findProperties — filters', () => {
   beforeEach(async () => {
     await saveProperties([
-      make({ listingType: 'rent', price: 900, rooms: 1, areaSqm: 50, hasElevator: false, extras: [], location: { ...BASE.location, city: 'Barcelona', district: 'Gràcia' } }),
-      make({ listingType: 'sale', price: 300000, rooms: 3, areaSqm: 100, hasElevator: true, extras: ['parking', 'terrace'], location: { ...BASE.location, city: 'Madrid', district: 'Salamanca' } }),
-      make({ listingType: 'rent', price: 1400, rooms: 2, areaSqm: 75, hasElevator: true, extras: ['parking'], location: { ...BASE.location, city: 'Barcelona', district: 'Eixample' } }),
+      make({
+        listingType: 'rent',
+        price: 900,
+        rooms: 1,
+        areaSqm: 50,
+        hasElevator: false,
+        extras: [],
+        location: { ...BASE.location, city: 'Barcelona', district: 'Gràcia' },
+      }),
+      make({
+        listingType: 'sale',
+        price: 300000,
+        rooms: 3,
+        areaSqm: 100,
+        hasElevator: true,
+        extras: ['parking', 'terrace'],
+        location: { ...BASE.location, city: 'Madrid', district: 'Salamanca' },
+      }),
+      make({
+        listingType: 'rent',
+        price: 1400,
+        rooms: 2,
+        areaSqm: 75,
+        hasElevator: true,
+        extras: ['parking'],
+        location: { ...BASE.location, city: 'Barcelona', district: 'Eixample' },
+      }),
     ]);
   });
 
@@ -146,7 +179,7 @@ describe('findPropertyById', () => {
     const { data } = await findProperties({}, 1, 1);
     const id = (data[0] as { id: number }).id;
 
-    const property = await findPropertyById(id) as Record<string, unknown>;
+    const property = (await findPropertyById(id)) as Record<string, unknown>;
     expect(property).not.toBeNull();
     expect(property.title).toBe('Test Flat');
     expect(Array.isArray(property.extras)).toBe(true);
@@ -165,7 +198,13 @@ describe('createContactRequest / createOffer', () => {
     const id = (data[0] as { id: number }).id;
 
     await expect(
-      createContactRequest({ propertyId: id, name: 'Ana', email: 'ana@test.com', type: 'visit', message: 'Saturday morning?' })
+      createContactRequest({
+        propertyId: id,
+        name: 'Ana',
+        email: 'ana@test.com',
+        type: 'visit',
+        message: 'Saturday morning?',
+      }),
     ).resolves.toBeUndefined();
   });
 
@@ -175,7 +214,7 @@ describe('createContactRequest / createOffer', () => {
     const id = (data[0] as { id: number }).id;
 
     await expect(
-      createOffer({ propertyId: id, name: 'Marc', email: 'marc@test.com', amount: 1100 })
+      createOffer({ propertyId: id, name: 'Marc', email: 'marc@test.com', amount: 1100 }),
     ).resolves.toBeUndefined();
   });
 });

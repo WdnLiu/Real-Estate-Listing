@@ -25,7 +25,9 @@ export default function ContactForm({ propertyId }: Props) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name, email, type: mode,
+          name,
+          email,
+          type: mode,
           message: mode === 'info' ? message : undefined,
           visitDate: mode === 'visit' ? date : undefined,
         }),
@@ -43,7 +45,9 @@ export default function ContactForm({ propertyId }: Props) {
     return (
       <div className="form-box">
         <p className="form-success">
-          {mode === 'visit' ? 'Visit request sent. We will confirm shortly.' : 'Message sent. We will get back to you soon.'}
+          {mode === 'visit'
+            ? 'Visit request sent. We will confirm shortly.'
+            : 'Message sent. We will get back to you soon.'}
         </p>
       </div>
     );
@@ -53,16 +57,51 @@ export default function ContactForm({ propertyId }: Props) {
     <div className="form-box">
       <h3 className="form-title">Contact</h3>
       <div className="form-mode-toggle">
-        <button type="button" className={mode === 'info' ? 'active' : ''} onClick={() => setMode('info')}>Ask a question</button>
-        <button type="button" className={mode === 'visit' ? 'active' : ''} onClick={() => setMode('visit')}>Request a visit</button>
+        <button
+          type="button"
+          className={mode === 'info' ? 'active' : ''}
+          onClick={() => setMode('info')}
+        >
+          Ask a question
+        </button>
+        <button
+          type="button"
+          className={mode === 'visit' ? 'active' : ''}
+          onClick={() => setMode('visit')}
+        >
+          Request a visit
+        </button>
       </div>
       <form onSubmit={handleSubmit} className="form-fields">
-        <input required placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} />
-        <input required type="email" placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <input
+          required
+          placeholder="Your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          required
+          type="email"
+          placeholder="Email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         {mode === 'visit' ? (
-          <input required type="date" value={date} onChange={(e) => setDate(e.target.value)} min={new Date().toISOString().split('T')[0]} />
+          <input
+            required
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            min={new Date().toISOString().split('T')[0]}
+          />
         ) : (
-          <textarea required placeholder="Your question…" rows={3} value={message} onChange={(e) => setMessage(e.target.value)} />
+          <textarea
+            required
+            placeholder="Your question…"
+            rows={3}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
         )}
         {error && <p className="ai-error">{error}</p>}
         <button type="submit" className="form-submit" disabled={loading}>

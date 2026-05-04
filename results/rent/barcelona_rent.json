@@ -18,9 +18,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "air conditioning"
-    ]
+    "extras": ["air conditioning"]
   },
   {
     "listingType": "rent",
@@ -41,11 +39,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 4,
-    "extras": [
-      "terrace",
-      "air conditioning",
-      "garden"
-    ]
+    "extras": ["terrace", "air conditioning", "garden"]
   },
   {
     "listingType": "rent",
@@ -66,9 +60,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 3,
-    "extras": [
-      "terrace"
-    ]
+    "extras": ["terrace"]
   },
   {
     "listingType": "rent",
@@ -88,10 +80,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 6,
-    "extras": [
-      "elevator",
-      "air conditioning"
-    ]
+    "extras": ["elevator", "air conditioning"]
   },
   {
     "listingType": "rent",
@@ -111,9 +100,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 8,
-    "extras": [
-      "garden"
-    ]
+    "extras": ["garden"]
   },
   {
     "listingType": "rent",
@@ -134,9 +121,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 2,
-    "extras": [
-      "garden"
-    ]
+    "extras": ["garden"]
   },
   {
     "listingType": "rent",
@@ -157,10 +142,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 7,
-    "extras": [
-      "terrace",
-      "pool"
-    ]
+    "extras": ["terrace", "pool"]
   },
   {
     "listingType": "rent",
@@ -180,11 +162,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 2,
-    "extras": [
-      "parking",
-      "storage unit",
-      "air conditioning"
-    ]
+    "extras": ["parking", "storage unit", "air conditioning"]
   },
   {
     "listingType": "rent",
@@ -205,11 +183,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 7,
-    "extras": [
-      "elevator",
-      "pool",
-      "garden"
-    ]
+    "extras": ["elevator", "pool", "garden"]
   },
   {
     "listingType": "rent",
@@ -230,11 +204,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 3,
-    "extras": [
-      "elevator",
-      "storage unit",
-      "pool"
-    ]
+    "extras": ["elevator", "storage unit", "pool"]
   },
   {
     "listingType": "rent",
@@ -255,10 +225,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 2,
-    "extras": [
-      "terrace",
-      "pool"
-    ]
+    "extras": ["terrace", "pool"]
   },
   {
     "listingType": "rent",
@@ -279,11 +246,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 1,
-    "extras": [
-      "elevator",
-      "terrace",
-      "pool"
-    ]
+    "extras": ["elevator", "terrace", "pool"]
   },
   {
     "listingType": "rent",
@@ -303,11 +266,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 1,
-    "extras": [
-      "storage unit",
-      "pool",
-      "garden"
-    ]
+    "extras": ["storage unit", "pool", "garden"]
   },
   {
     "listingType": "rent",
@@ -328,9 +287,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 6,
-    "extras": [
-      "elevator"
-    ]
+    "extras": ["elevator"]
   },
   {
     "listingType": "rent",
@@ -351,13 +308,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 1,
-    "extras": [
-      "parking",
-      "storage unit",
-      "terrace",
-      "pool",
-      "garden"
-    ]
+    "extras": ["parking", "storage unit", "terrace", "pool", "garden"]
   },
   {
     "listingType": "rent",
@@ -378,10 +329,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 8,
-    "extras": [
-      "parking",
-      "terrace"
-    ]
+    "extras": ["parking", "terrace"]
   },
   {
     "listingType": "rent",
@@ -402,9 +350,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 6,
-    "extras": [
-      "terrace"
-    ]
+    "extras": ["terrace"]
   },
   {
     "listingType": "rent",
@@ -424,11 +370,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 8,
-    "extras": [
-      "storage unit",
-      "terrace",
-      "garden"
-    ]
+    "extras": ["storage unit", "terrace", "garden"]
   },
   {
     "listingType": "rent",
@@ -470,11 +412,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 0,
-    "extras": [
-      "air conditioning",
-      "pool",
-      "garden"
-    ]
+    "extras": ["air conditioning", "pool", "garden"]
   },
   {
     "listingType": "rent",
@@ -494,10 +432,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 8,
-    "extras": [
-      "parking",
-      "air conditioning"
-    ]
+    "extras": ["parking", "air conditioning"]
   },
   {
     "listingType": "rent",
@@ -518,9 +453,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 3,
-    "extras": [
-      "terrace"
-    ]
+    "extras": ["terrace"]
   },
   {
     "listingType": "rent",
@@ -541,11 +474,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 8,
-    "extras": [
-      "elevator",
-      "air conditioning",
-      "garden"
-    ]
+    "extras": ["elevator", "air conditioning", "garden"]
   },
   {
     "listingType": "rent",
@@ -566,11 +495,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 4,
-    "extras": [
-      "elevator",
-      "storage unit",
-      "garden"
-    ]
+    "extras": ["elevator", "storage unit", "garden"]
   },
   {
     "listingType": "rent",
@@ -591,10 +516,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 4,
-    "extras": [
-      "storage unit",
-      "air conditioning"
-    ]
+    "extras": ["storage unit", "air conditioning"]
   },
   {
     "listingType": "rent",
@@ -615,10 +537,7 @@
     "images": [],
     "bathrooms": 1,
     "floor": 1,
-    "extras": [
-      "terrace",
-      "pool"
-    ]
+    "extras": ["terrace", "pool"]
   },
   {
     "listingType": "rent",
@@ -639,11 +558,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 5,
-    "extras": [
-      "parking",
-      "storage unit",
-      "air conditioning"
-    ]
+    "extras": ["parking", "storage unit", "air conditioning"]
   },
   {
     "listingType": "rent",
@@ -663,9 +578,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 8,
-    "extras": [
-      "air conditioning"
-    ]
+    "extras": ["air conditioning"]
   },
   {
     "listingType": "rent",
@@ -686,10 +599,7 @@
     "images": [],
     "bathrooms": 2,
     "floor": 3,
-    "extras": [
-      "storage unit",
-      "pool"
-    ]
+    "extras": ["storage unit", "pool"]
   },
   {
     "listingType": "rent",
@@ -710,9 +620,6 @@
     "images": [],
     "bathrooms": 1,
     "floor": 5,
-    "extras": [
-      "parking",
-      "air conditioning"
-    ]
+    "extras": ["parking", "air conditioning"]
   }
 ]

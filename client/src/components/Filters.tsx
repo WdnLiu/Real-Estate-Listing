@@ -59,17 +59,21 @@ function FilterDropdown({ label, badge, disabled, children }: DropdownProps) {
   }, []);
 
   return (
-    <div className={`filter-dropdown ${open ? 'open' : ''} ${disabled ? 'disabled' : ''}`} ref={ref}>
-      <button className="filter-dropdown-trigger" onClick={() => !disabled && setOpen((o) => !o)} type="button" disabled={disabled}>
+    <div
+      className={`filter-dropdown ${open ? 'open' : ''} ${disabled ? 'disabled' : ''}`}
+      ref={ref}
+    >
+      <button
+        className="filter-dropdown-trigger"
+        onClick={() => !disabled && setOpen((o) => !o)}
+        type="button"
+        disabled={disabled}
+      >
         <span>{label}</span>
         {badge ? <span className="filter-dropdown-badge">{badge}</span> : null}
         <span className="filter-dropdown-chevron">{open ? '▲' : '▼'}</span>
       </button>
-      {open && (
-        <div className="filter-dropdown-panel">
-          {children}
-        </div>
-      )}
+      {open && <div className="filter-dropdown-panel">{children}</div>}
     </div>
   );
 }
@@ -98,7 +102,7 @@ export default function Filters({ filters, onChange }: Props) {
 
   const availableNeighborhoods = filters.districts.length
     ? filters.districts.flatMap((d) => DISTRICT_NEIGHBORHOODS[d] ?? [])
-    : cityLocations?.neighborhoods ?? [];
+    : (cityLocations?.neighborhoods ?? []);
 
   const featureBadge = (filters.hasElevator ? 1 : 0) + filters.selectedExtras.length || undefined;
 
@@ -112,12 +116,34 @@ export default function Filters({ filters, onChange }: Props) {
         )}
         <input placeholder="City" value={filters.city} onChange={setCity} list="cities-list" />
         <datalist id="cities-list">
-          {CITIES.map((c) => <option key={c} value={c} />)}
+          {CITIES.map((c) => (
+            <option key={c} value={c} />
+          ))}
         </datalist>
-        <input placeholder="Min price" type="number" value={filters.minPrice} onChange={set('minPrice')} />
-        <input placeholder="Max price" type="number" value={filters.maxPrice} onChange={set('maxPrice')} />
-        <input placeholder="Min rooms" type="number" value={filters.minRooms} onChange={set('minRooms')} />
-        <input placeholder="Min area (m²)" type="number" value={filters.minArea} onChange={set('minArea')} />
+        <input
+          placeholder="Min price"
+          type="number"
+          value={filters.minPrice}
+          onChange={set('minPrice')}
+        />
+        <input
+          placeholder="Max price"
+          type="number"
+          value={filters.maxPrice}
+          onChange={set('maxPrice')}
+        />
+        <input
+          placeholder="Min rooms"
+          type="number"
+          value={filters.minRooms}
+          onChange={set('minRooms')}
+        />
+        <input
+          placeholder="Min area (m²)"
+          type="number"
+          value={filters.minArea}
+          onChange={set('minArea')}
+        />
       </div>
 
       <div className="filters-dropdowns">
@@ -127,7 +153,11 @@ export default function Filters({ filters, onChange }: Props) {
               <div className="checkbox-list">
                 {cityLocations.districts.map((d) => (
                   <label key={d} className="checkbox-item">
-                    <input type="checkbox" checked={filters.districts.includes(d)} onChange={() => toggleDistrict(d)} />
+                    <input
+                      type="checkbox"
+                      checked={filters.districts.includes(d)}
+                      onChange={() => toggleDistrict(d)}
+                    />
                     {d}
                   </label>
                 ))}
@@ -139,11 +169,18 @@ export default function Filters({ filters, onChange }: Props) {
                 <p className="dropdown-empty-hint">Select a district first</p>
               </FilterDropdown>
             ) : availableNeighborhoods.length > 0 ? (
-              <FilterDropdown label="Neighborhoods" badge={filters.neighborhoods.length || undefined}>
+              <FilterDropdown
+                label="Neighborhoods"
+                badge={filters.neighborhoods.length || undefined}
+              >
                 <div className="checkbox-list">
                   {availableNeighborhoods.map((n) => (
                     <label key={n} className="checkbox-item">
-                      <input type="checkbox" checked={filters.neighborhoods.includes(n)} onChange={() => toggleNeighborhood(n)} />
+                      <input
+                        type="checkbox"
+                        checked={filters.neighborhoods.includes(n)}
+                        onChange={() => toggleNeighborhood(n)}
+                      />
                       {n}
                     </label>
                   ))}
@@ -166,7 +203,11 @@ export default function Filters({ filters, onChange }: Props) {
             <div className="checkbox-divider" />
             {EXTRAS.map((e) => (
               <label key={e} className="checkbox-item">
-                <input type="checkbox" checked={filters.selectedExtras.includes(e)} onChange={() => toggleExtra(e)} />
+                <input
+                  type="checkbox"
+                  checked={filters.selectedExtras.includes(e)}
+                  onChange={() => toggleExtra(e)}
+                />
                 {e.charAt(0).toUpperCase() + e.slice(1)}
               </label>
             ))}
