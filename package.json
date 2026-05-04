@@ -1,0 +1,42 @@
+{
+  "name": "real-state-listings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsx watch src/index.ts & npm run dev --prefix client",
+    "init": "prisma generate && prisma db push && tsx src/scripts/seedDb.ts",
+    "format": "prettier --write .",
+    "dev": "tsx watch src/index.ts",
+    "clean": "rm -rf results",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "tsx src/scripts/seedDb.ts"
+  },
+  "keywords": [],
+  "author": "W",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.51.0",
+    "@prisma/adapter-better-sqlite3": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "better-sqlite3": "^12.9.0",
+    "express": "^5.2.1",
+    "zod": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.3",
+    "prisma": "^7.8.0",
+    "ts-jest": "^29.4.9",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
