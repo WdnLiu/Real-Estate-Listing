@@ -8,6 +8,7 @@ coverage/
 .DS_Store
 src/generated/
 client/dist/
+client/tsconfig.tsbuildinfo
 test.db
 test.db-journal
 prisma/*.db

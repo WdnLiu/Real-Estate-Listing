@@ -9,7 +9,7 @@
     "init": "prisma generate && prisma db push && tsx src/scripts/seedDb.ts",
     "format": "prettier --write .",
     "dev": "tsx watch src/index.ts",
-    "clean": "rm -rf results",
+    "clean": "rm -rf dist client/dist",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "tsx src/scripts/seedDb.ts"
