@@ -12,7 +12,7 @@ A full-stack property listings platform with AI-powered natural language search.
 
 ## Quick start
 
-The repository includes a pre-seeded SQLite database and sample raw data, so no data preparation is needed.
+The repository includes a pre-seeded SQLite database and sample raw data. Run `npm run init` once before starting to generate the Prisma client and push the schema.
 
 ### 1. Install dependencies
 
