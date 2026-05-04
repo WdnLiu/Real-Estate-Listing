@@ -34,6 +34,12 @@ I had trouble fetching live data due to a Cloudflare layer, so I generated synth
 
 ---
 
+## A note on the database
+
+SQLite was chosen over MySQL for this project. Through Prisma, both engines expose an identical API — the schema, queries, and all filtering logic are the same regardless of which one runs underneath. SQLite is well-suited for a project of this scale: it requires no server, no credentials, and no infrastructure setup, and the pre-seeded database file can be committed directly to the repository so the app runs out of the box. Migrating to MySQL would require changing only the Prisma adapter and the connection string.
+
+---
+
 ## One key assumption
 
 Users search within one city at a time. The filter model has a single `city` field and location data is pre-defined per city, so cross-city searches ("show me flats in both Barcelona and Madrid") are not supported. The assumption is that real estate intent is local, meaning people have already decided what city they're targeting before they start refining.
