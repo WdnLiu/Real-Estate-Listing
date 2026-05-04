@@ -1,0 +1,714 @@
+[
+  {
+    "listingType": "sale",
+    "title": "Piso en venta en Eixample",
+    "price": 450000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Eixample",
+      "neighborhood": "La Sagrada Família",
+      "address": "Carrer Mallorca"
+    },
+    "description": "Gran oportunidad.",
+    "listingUrl": "fotocasa.es/201",
+    "contactPhone": "+34620111222",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 3,
+    "extras": [
+      "elevator",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Gràcia",
+    "price": 380000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Gràcia",
+      "neighborhood": "Vila de Gràcia",
+      "address": "Gràcia, Barcelona"
+    },
+    "description": "A reformar.",
+    "listingUrl": "idealista.com/202",
+    "contactPhone": "+34620222333",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 0,
+    "extras": [
+      "storage unit",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Casa en Sarrià",
+    "price": 960000,
+    "currency": "EUR",
+    "areaSqm": 200,
+    "rooms": 4,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sarrià-Sant Gervasi",
+      "neighborhood": "Sarrià",
+      "address": "Bonanova"
+    },
+    "description": "Exclusivo.",
+    "listingUrl": "fotocasa.es/203",
+    "contactPhone": "+34620333444",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 0,
+    "extras": [
+      "terrace",
+      "pool",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sants",
+    "price": 250000,
+    "currency": "EUR",
+    "areaSqm": 70,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood": "Poble Sec",
+      "address": "Sants-Montjuïc, Barcelona"
+    },
+    "description": "",
+    "listingUrl": "idealista.com/204",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 7,
+    "extras": [
+      "elevator",
+      "storage unit",
+      "pool",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Nou Barris",
+    "price": 210000,
+    "currency": "EUR",
+    "areaSqm": 65,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Nou Barris",
+      "neighborhood": "",
+      "address": "Paseo Fabra"
+    },
+    "description": "Económico.",
+    "listingUrl": "fotocasa.es/205",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 6,
+    "extras": [
+      "parking",
+      "storage unit",
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Martí",
+    "price": 420000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood": "Poblenou",
+      "address": "Sant Martí, Barcelona"
+    },
+    "description": "Cerca del mar.",
+    "listingUrl": "idealista.com/206",
+    "contactPhone": "+34620555666",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 3,
+    "extras": [
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Horta",
+    "price": 280000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Horta-Guinardó",
+      "neighborhood": "",
+      "address": "Carrer Tajo"
+    },
+    "description": "Vistas.",
+    "listingUrl": "fotocasa.es/207",
+    "contactPhone": "+34620666777",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 4,
+    "extras": [
+      "parking",
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Les Corts",
+    "price": 550000,
+    "currency": "EUR",
+    "areaSqm": 110,
+    "rooms": 4,
+    "location": {
+      "city": "Barcelona",
+      "district": "Les Corts",
+      "neighborhood": "Pedralbes",
+      "address": "Les Corts, Barcelona"
+    },
+    "description": "Junto al estadio.",
+    "listingUrl": "idealista.com/208",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 7,
+    "extras": [
+      "elevator",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Ciutat Vella",
+    "price": 320000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood": "La Barceloneta",
+      "address": "Ramblas"
+    },
+    "description": "Inversión.",
+    "listingUrl": "fotocasa.es/209",
+    "contactPhone": "+34620777888",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 4,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Andreu",
+    "price": 290000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood": "",
+      "address": "Sant Andreu, Barcelona"
+    },
+    "description": "Reformado.",
+    "listingUrl": "idealista.com/210",
+    "contactPhone": "+34620888999",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 8,
+    "extras": [
+      "storage unit",
+      "air conditioning"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Eixample",
+    "price": 600000,
+    "currency": "EUR",
+    "areaSqm": 120,
+    "rooms": 4,
+    "location": {
+      "city": "Barcelona",
+      "district": "Eixample",
+      "neighborhood": "La Sagrada Família",
+      "address": "Balmes"
+    },
+    "description": "Finca regia.",
+    "listingUrl": "fotocasa.es/211",
+    "contactPhone": "+34620999000",
+    "images": [],
+    "bathrooms": 3,
+    "floor": 8,
+    "extras": [
+      "elevator",
+      "pool",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Gràcia",
+    "price": 410000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Gràcia",
+      "neighborhood": "Vila de Gràcia",
+      "address": "Gràcia, Barcelona"
+    },
+    "description": "Luminoso.",
+    "listingUrl": "idealista.com/212",
+    "contactPhone": "+34621000111",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "storage unit",
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sarrià",
+    "price": 850000,
+    "currency": "EUR",
+    "areaSqm": 160,
+    "rooms": 4,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sarrià-Sant Gervasi",
+      "neighborhood": "Sant Gervasi",
+      "address": "Pedralbes"
+    },
+    "description": "Alto standing.",
+    "listingUrl": "fotocasa.es/213",
+    "images": [],
+    "bathrooms": 3,
+    "floor": 1,
+    "extras": [
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sants",
+    "price": 270000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood": "Poble Sec",
+      "address": "Sants-Montjuïc, Barcelona"
+    },
+    "description": "Ideal parejas.",
+    "listingUrl": "idealista.com/214",
+    "contactPhone": "+34621222333",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Nou Barris",
+    "price": 230000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Nou Barris",
+      "neighborhood": "",
+      "address": "Via Julia"
+    },
+    "description": "Amplio.",
+    "listingUrl": "fotocasa.es/215",
+    "contactPhone": "+34621333444",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 7,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Martí",
+    "price": 460000,
+    "currency": "EUR",
+    "areaSqm": 95,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood": "El Camp de l'Arpa",
+      "address": "Sant Martí, Barcelona"
+    },
+    "description": "Poblenou.",
+    "listingUrl": "idealista.com/216",
+    "contactPhone": "+34621444555",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 4,
+    "extras": [
+      "parking"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Horta",
+    "price": 295000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Horta-Guinardó",
+      "neighborhood": "",
+      "address": "Carmel"
+    },
+    "description": "A reformar.",
+    "listingUrl": "fotocasa.es/217",
+    "contactPhone": "+34621555666",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "parking"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Les Corts",
+    "price": 520000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Les Corts",
+      "neighborhood": "Pedralbes",
+      "address": "Les Corts, Barcelona"
+    },
+    "description": "Perfecto estado.",
+    "listingUrl": "idealista.com/218",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 3,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Ciutat Vella",
+    "price": 350000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood": "El Born",
+      "address": "Gótico"
+    },
+    "description": "",
+    "listingUrl": "fotocasa.es/219",
+    "contactPhone": "+34621777888",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 6,
+    "extras": []
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Andreu",
+    "price": 310000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood": "",
+      "address": "Sant Andreu, Barcelona"
+    },
+    "description": "Luminoso.",
+    "listingUrl": "idealista.com/220",
+    "contactPhone": "+34621888999",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 3,
+    "extras": [
+      "parking",
+      "terrace",
+      "air conditioning",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Eixample",
+    "price": 550000,
+    "currency": "EUR",
+    "areaSqm": 110,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Eixample",
+      "neighborhood": "La Sagrada Família",
+      "address": "Passeig de Gracia"
+    },
+    "description": "Céntrico.",
+    "listingUrl": "fotocasa.es/221",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 0,
+    "extras": [
+      "parking",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Gràcia",
+    "price": 430000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Gràcia",
+      "neighborhood": "Vila de Gràcia",
+      "address": "Gràcia, Barcelona"
+    },
+    "description": "Amueblado.",
+    "listingUrl": "idealista.com/222",
+    "contactPhone": "+34622000111",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 7,
+    "extras": [
+      "parking",
+      "storage unit",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sarrià",
+    "price": 750000,
+    "currency": "EUR",
+    "areaSqm": 130,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sarrià-Sant Gervasi",
+      "neighborhood": "Sarrià",
+      "address": "Tres Torres"
+    },
+    "description": "Tranquilo.",
+    "listingUrl": "fotocasa.es/223",
+    "contactPhone": "+34622111222",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 6,
+    "extras": [
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sants",
+    "price": 280000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sants-Montjuïc",
+      "neighborhood": "Poble Sec",
+      "address": "Sants-Montjuïc, Barcelona"
+    },
+    "description": "Buena zona.",
+    "listingUrl": "idealista.com/224",
+    "contactPhone": "+3462222333",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 1,
+    "extras": [
+      "elevator",
+      "parking"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Nou Barris",
+    "price": 240000,
+    "currency": "EUR",
+    "areaSqm": 82,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Nou Barris",
+      "neighborhood": "",
+      "address": "Roquetes"
+    },
+    "description": "Soleado.",
+    "listingUrl": "fotocasa.es/225",
+    "contactPhone": "+34622333444",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 3,
+    "extras": []
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Martí",
+    "price": 480000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Martí",
+      "neighborhood": "Poblenou",
+      "address": "Sant Martí, Barcelona"
+    },
+    "description": "Moderno.",
+    "listingUrl": "idealista.com/226",
+    "contactPhone": "+34622444555",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 2,
+    "extras": [
+      "elevator",
+      "terrace"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Horta",
+    "price": 305000,
+    "currency": "EUR",
+    "areaSqm": 90,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Horta-Guinardó",
+      "neighborhood": "",
+      "address": "Guinardó"
+    },
+    "description": "Vistas ciudad.",
+    "listingUrl": "fotocasa.es/227",
+    "contactPhone": "+34622555666",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 6,
+    "extras": [
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Les Corts",
+    "price": 580000,
+    "currency": "EUR",
+    "areaSqm": 120,
+    "rooms": 4,
+    "location": {
+      "city": "Barcelona",
+      "district": "Les Corts",
+      "neighborhood": "Pedralbes",
+      "address": "Les Corts, Barcelona"
+    },
+    "description": "Zona premium.",
+    "listingUrl": "idealista.com/228",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 7,
+    "extras": [
+      "parking",
+      "air conditioning",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Ciutat Vella",
+    "price": 360000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 2,
+    "location": {
+      "city": "Barcelona",
+      "district": "Ciutat Vella",
+      "neighborhood": "El Gòtic",
+      "address": "Born"
+    },
+    "description": "Histórico.",
+    "listingUrl": "fotocasa.es/229",
+    "contactPhone": "+34622777888",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 0,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Sant Andreu",
+    "price": 320000,
+    "currency": "EUR",
+    "areaSqm": 90,
+    "rooms": 3,
+    "location": {
+      "city": "Barcelona",
+      "district": "Sant Andreu",
+      "neighborhood": "",
+      "address": "Sant Andreu, Barcelona"
+    },
+    "description": "Cerca metro.",
+    "listingUrl": "idealista.com/230",
+    "contactPhone": "+34622888999",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 1,
+    "extras": [
+      "parking",
+      "storage unit",
+      "garden"
+    ]
+  }
+]

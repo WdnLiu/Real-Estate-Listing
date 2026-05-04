@@ -1,0 +1,1233 @@
+[
+  {
+    "id": 301,
+    "title": "Piso en alquiler en Salamanca",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 2500,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 2,
+      "constructedArea": 90,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 3
+    },
+    "address": {
+      "name": "Calle de Narváez, 5",
+      "district": {
+        "id": 4,
+        "name": "Salamanca"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.43,
+        "longitude": -3.685,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Goya"
+      }
+    },
+    "description": "Lujo en Milla de Oro.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/301"
+    },
+    "phone": "630111222"
+  },
+  {
+    "url": "idealista.com/302",
+    "title": "Piso en Chamberí",
+    "location": "Chamberí, Madrid",
+    "price": 1800,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "15 March",
+    "description": "Clásico renovado.",
+    "features": {
+      "Basic features": [
+        "80 m² built",
+        "2 bedrooms",
+        "1 bathroom",
+        "5th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia",
+      "contactPhone": "630222333"
+    },
+    "neighborhood": "Almagro",
+    "address": {
+      "name": "Calle de Zurbano, 12"
+    }
+  },
+  {
+    "id": 303,
+    "title": "Ático en Centro",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "2100 €/mes",
+      "currencySuffix": ""
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 1,
+      "constructedArea": 75,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle del Amparo, 19",
+      "district": {
+        "id": 1,
+        "name": "Centro"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.42,
+        "longitude": -3.703,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Lavapiés"
+      }
+    },
+    "description": "Vistas espectaculares.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/303"
+    },
+    "phone": "630333444"
+  },
+  {
+    "url": "idealista.com/304",
+    "title": "Piso en Retiro",
+    "location": "Retiro, Madrid",
+    "price": 2200,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "14 March",
+    "description": null,
+    "features": {
+      "Basic features": [
+        "100 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "4th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "contactInfo": null,
+    "neighborhood": "",
+    "address": {
+      "name": "Avenida del Mediterráneo, 26"
+    }
+  },
+  {
+    "id": 305,
+    "title": "Piso en Arganzuela",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1300,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 1,
+      "constructedArea": 65,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 8
+    },
+    "address": {
+      "name": "Calle Mayor, 33",
+      "district": null,
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.405,
+        "longitude": -3.71,
+        "isPrecise": false
+      },
+      "neighborhood": null
+    },
+    "description": "Cerca de Madrid Río.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/305"
+    }
+  },
+  {
+    "url": "idealista.com/306",
+    "title": "Piso en Carabanchel",
+    "location": "Carabanchel, Madrid",
+    "price": 900,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "12 March",
+    "description": "Económico.",
+    "features": {
+      "Basic features": [
+        "60 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Particular",
+      "contactPhone": "630555666"
+    },
+    "neighborhood": "Carabanchel Alto",
+    "address": {
+      "name": "Calle de Marcelo Usera, 40"
+    }
+  },
+  {
+    "id": 307,
+    "title": "Piso en Moncloa-Aravaca",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1500,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 95,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle de Isaac Peral, 47",
+      "district": {
+        "id": 9,
+        "name": "Moncloa-Aravaca"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.432,
+        "longitude": -3.715,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Ideal estudiantes.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/307"
+    },
+    "phone": "630666777"
+  },
+  {
+    "url": "idealista.com/308",
+    "title": "Piso en Tetuán",
+    "location": "Tetuán, Madrid",
+    "price": 1200,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "10 March",
+    "description": "Cerca de Azca.",
+    "features": {
+      "Basic features": [
+        "70 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "6th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "neighborhood": "",
+    "address": {
+      "name": "Calle de Raimundo Fernández Villaverde, 54"
+    }
+  },
+  {
+    "id": 309,
+    "title": "Piso en Hortaleza",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "1400",
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 85,
+      "hasTerrace": false,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle de López de Hoyos, 61",
+      "district": {
+        "id": 16,
+        "name": "Hortaleza"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.465,
+        "longitude": -3.645,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Ciudad Jardín"
+      }
+    },
+    "description": "Zonas verdes.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/309"
+    },
+    "phone": "630777888"
+  },
+  {
+    "url": "idealista.com/310",
+    "title": "Piso en Latina",
+    "location": "Latina, Madrid",
+    "price": 850,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "9 March",
+    "description": "Reformado.",
+    "features": {
+      "Basic features": [
+        "55 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "3rd floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Inmo",
+      "contactPhone": "630888999"
+    },
+    "neighborhood": "La Latina",
+    "address": {
+      "name": "Calle de la Cava Baja, 68"
+    }
+  },
+  {
+    "id": 311,
+    "title": "Piso en Salamanca",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 3000,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 3,
+      "constructedArea": 150,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 7
+    },
+    "address": {
+      "name": "Calle de Ibiza, 75",
+      "district": {
+        "id": 4,
+        "name": "Salamanca"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.431,
+        "longitude": -3.682,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Goya"
+      }
+    },
+    "description": "Premium.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/311"
+    },
+    "phone": "630999000"
+  },
+  {
+    "url": "idealista.com/312",
+    "title": "Piso en Chamberí",
+    "location": "Chamberí, Madrid",
+    "price": 1950,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "8 March",
+    "description": "Diseño.",
+    "features": {
+      "Basic features": [
+        "85 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Ana",
+      "contactPhone": "631000111"
+    },
+    "neighborhood": "Trafalgar",
+    "address": {
+      "name": "Carrer de Jonqueres, 82"
+    }
+  },
+  {
+    "id": 313,
+    "title": "Estudio en Centro",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1100,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 1,
+      "bathsNumber": 1,
+      "constructedArea": 40,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 6
+    },
+    "address": {
+      "name": "Calle del Pez, 89",
+      "district": {
+        "id": 1,
+        "name": "Centro"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.416,
+        "longitude": -3.703,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Malasaña"
+      }
+    },
+    "description": "Corazón de Madrid.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/313"
+    }
+  },
+  {
+    "url": "idealista.com/314",
+    "title": "Piso en Retiro",
+    "location": "Retiro, Madrid",
+    "price": "2500€/mes",
+    "currency": "€",
+    "operation": "rent",
+    "updated": "7 March",
+    "description": "Frente al parque.",
+    "features": {
+      "Basic features": [
+        "120 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "6th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "InmoRetiro",
+      "contactPhone": "631222333"
+    },
+    "neighborhood": "",
+    "address": {
+      "name": "Calle de Narváez, 96"
+    }
+  },
+  {
+    "id": 315,
+    "title": "Piso en Arganzuela",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1400,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 2,
+      "constructedArea": 75,
+      "hasTerrace": false,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 0
+    },
+    "address": {
+      "name": "Calle de Embajadores, 5",
+      "district": {
+        "id": 2,
+        "name": "Arganzuela"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.395,
+        "longitude": -3.695,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Obra nueva.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/315"
+    },
+    "phone": "631333444"
+  },
+  {
+    "url": "idealista.com/316",
+    "title": "Piso en Carabanchel",
+    "location": "Carabanchel, Madrid",
+    "price": 950,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "6 March",
+    "description": "Bien comunicado.",
+    "features": {
+      "Basic features": [
+        "65 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Mar",
+      "contactPhone": "631444555"
+    },
+    "neighborhood": "Carabanchel Alto",
+    "address": {
+      "name": "Calle de Pradillo, 12"
+    }
+  },
+  {
+    "id": 317,
+    "title": "Piso en Moncloa",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1600,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 100,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle de la Princesa, 19",
+      "district": {
+        "id": 9,
+        "name": "Moncloa-Aravaca"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.428,
+        "longitude": -3.718,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Amplio.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/317"
+    },
+    "phone": "631555666"
+  },
+  {
+    "url": "idealista.com/318",
+    "title": "Piso en Tetuán",
+    "location": "Tetuán, Madrid",
+    "price": 1300,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "5 March",
+    "description": "Cuzco.",
+    "features": {
+      "Basic features": [
+        "75 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": null,
+    "neighborhood": "",
+    "address": {
+      "name": "Calle de Orense, 26"
+    }
+  },
+  {
+    "id": 319,
+    "title": "Piso en Hortaleza",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1500,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 90,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle de los Jardines, 33",
+      "district": {
+        "id": 16,
+        "name": "Hortaleza"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.485,
+        "longitude": -3.655,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Ciudad Jardín"
+      }
+    },
+    "description": null,
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/319"
+    },
+    "phone": "631777888"
+  },
+  {
+    "url": "idealista.com/320",
+    "title": "Piso en Latina",
+    "location": "Latina, Madrid",
+    "price": 900,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "4 March",
+    "description": "Luminoso.",
+    "features": {
+      "Basic features": [
+        "60 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia Sur",
+      "contactPhone": "631888999"
+    },
+    "neighborhood": "La Latina",
+    "address": {
+      "name": "Calle de los Estudios, 40"
+    }
+  },
+  {
+    "id": 321,
+    "title": "Piso en Salamanca",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 3200,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 4,
+      "bathsNumber": 3,
+      "constructedArea": 180,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 6
+    },
+    "address": {
+      "name": "Calle Mayor, 47",
+      "district": null,
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.435,
+        "longitude": -3.688,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Exclusivo.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/321"
+    }
+  },
+  {
+    "url": "idealista.com/322",
+    "title": "Piso en Chamberí",
+    "location": "Chamberí, Madrid",
+    "price": 2000,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "3 March",
+    "description": "Amueblado.",
+    "features": {
+      "Basic features": [
+        "90 m² built",
+        "2 bedrooms",
+        "1 bathroom",
+        "6th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Fitted wardrobes",
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Luis",
+      "contactPhone": "632000111"
+    },
+    "neighborhood": "Almagro",
+    "address": {
+      "name": "Calle de Zurbano, 54"
+    }
+  },
+  {
+    "id": 323,
+    "title": "Piso en Centro",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1250,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 1,
+      "bathsNumber": 1,
+      "constructedArea": 50,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Calle de Augusto Figueroa, 61",
+      "district": {
+        "id": 1,
+        "name": "Centro"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.425,
+        "longitude": -3.702,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Chueca"
+      }
+    },
+    "description": "Moderno.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/323"
+    },
+    "phone": "632111222"
+  },
+  {
+    "url": "idealista.com/324",
+    "title": "Piso en Retiro",
+    "location": "Retiro, Madrid",
+    "price": 2800,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "2 March",
+    "description": "Vistas.",
+    "features": {
+      "Basic features": [
+        "140 m² built",
+        "4 bedrooms",
+        "3 bathrooms",
+        "8th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Bcn Rentals",
+      "contactPhone": "632222333"
+    },
+    "neighborhood": "",
+    "address": {
+      "name": "Avenida del Mediterráneo, 68"
+    }
+  },
+  {
+    "id": 325,
+    "title": "Piso en Arganzuela",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "1500 €/mes",
+      "currencySuffix": ""
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 85,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 5
+    },
+    "address": {
+      "name": "Paseo de las Acacias, 75",
+      "district": {
+        "id": 2,
+        "name": "Arganzuela"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.398,
+        "longitude": -3.692,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Familiar.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/325"
+    },
+    "phone": "632333444"
+  },
+  {
+    "url": "idealista.com/326",
+    "title": "Piso en Carabanchel",
+    "location": "Carabanchel, Madrid",
+    "price": 1000,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "1 March",
+    "description": "Amplio.",
+    "features": {
+      "Basic features": [
+        "70 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "7th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia Mar",
+      "contactPhone": "632444555"
+    },
+    "neighborhood": "Aluche",
+    "address": {
+      "name": "Calle de Sepúlveda, 82"
+    }
+  },
+  {
+    "id": 327,
+    "title": "Piso en Moncloa",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1700,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 110,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 3
+    },
+    "address": {
+      "name": "Calle de Isaac Peral, 89",
+      "district": {
+        "id": 9,
+        "name": "Moncloa-Aravaca"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.44,
+        "longitude": -3.725,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Exterior.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/327"
+    },
+    "phone": "632555666"
+  },
+  {
+    "url": "idealista.com/328",
+    "title": "Piso en Tetuán",
+    "location": "Tetuán, Madrid",
+    "price": 1400,
+    "currency": "€",
+    "operation": "rent",
+    "updated": "28 Feb",
+    "description": "Nuevo.",
+    "features": {
+      "Basic features": [
+        "80 m² built",
+        "2 bedrooms",
+        "1 bathroom",
+        "4th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": null,
+    "neighborhood": "",
+    "address": {
+      "name": "Calle de Raimundo Fernández Villaverde, 96"
+    }
+  },
+  {
+    "id": 329,
+    "title": "Piso en Hortaleza",
+    "transaction": "rent",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 1600,
+      "currencySuffix": "€/mes"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 95,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 7
+    },
+    "address": {
+      "name": "Calle de López de Hoyos, 5",
+      "district": {
+        "id": 16,
+        "name": "Hortaleza"
+      },
+      "municipality": {
+        "id": 28079,
+        "name": "Madrid"
+      },
+      "coordinates": {
+        "latitude": 40.488,
+        "longitude": -3.62,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Ciudad Jardín"
+      }
+    },
+    "description": "Residencial.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/329"
+    },
+    "phone": "632777888"
+  },
+  {
+    "url": "idealista.com/330",
+    "title": "Piso en Latina",
+    "location": "Latina, Madrid",
+    "price": "950",
+    "currency": "€",
+    "operation": "rent",
+    "updated": "27 Feb",
+    "description": "Cerca metro.",
+    "features": {
+      "Basic features": [
+        "65 m² built",
+        "2 bedrooms",
+        "1 bathroom",
+        "2nd floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Fincas",
+      "contactPhone": "632888999"
+    },
+    "neighborhood": "La Latina",
+    "address": {
+      "name": "Calle de la Cava Baja, 12"
+    }
+  }
+]

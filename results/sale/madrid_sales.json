@@ -1,0 +1,709 @@
+[
+  {
+    "listingType": "sale",
+    "title": "Piso en venta en Salamanca",
+    "price": 820000,
+    "currency": "EUR",
+    "areaSqm": 120,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Salamanca",
+      "neighborhood": "Lista",
+      "address": "Calle Goya"
+    },
+    "description": "Señorial.",
+    "listingUrl": "fotocasa.es/401",
+    "contactPhone": "+34640111222",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 8,
+    "extras": [
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Chamberí",
+    "price": 650000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Chamberí",
+      "neighborhood": "Trafalgar",
+      "address": "Chamberí, Madrid"
+    },
+    "description": "A reformar.",
+    "listingUrl": "idealista.com/402",
+    "contactPhone": "+34640222333",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 6,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Ático en Centro",
+    "price": 750000,
+    "currency": "EUR",
+    "areaSqm": 90,
+    "rooms": 2,
+    "location": {
+      "city": "Madrid",
+      "district": "Centro",
+      "neighborhood": "Malasaña",
+      "address": "Huertas"
+    },
+    "description": "Terraza.",
+    "listingUrl": "fotocasa.es/403",
+    "contactPhone": "+34640333444",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 0,
+    "extras": []
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Retiro",
+    "price": 780000,
+    "currency": "EUR",
+    "areaSqm": 130,
+    "rooms": 4,
+    "location": {
+      "city": "Madrid",
+      "district": "Retiro",
+      "neighborhood": "",
+      "address": "Retiro, Madrid"
+    },
+    "description": "",
+    "listingUrl": "idealista.com/404",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Arganzuela",
+    "price": 350000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 2,
+    "location": {
+      "city": "Madrid",
+      "district": "Arganzuela",
+      "neighborhood": "",
+      "address": "Chopera"
+    },
+    "description": "Inversión.",
+    "listingUrl": "fotocasa.es/405",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 7,
+    "extras": [
+      "parking",
+      "terrace"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Carabanchel",
+    "price": 175000,
+    "currency": "EUR",
+    "areaSqm": 65,
+    "rooms": 2,
+    "location": {
+      "city": "Madrid",
+      "district": "Carabanchel",
+      "neighborhood": "Carabanchel Alto",
+      "address": "Carabanchel, Madrid"
+    },
+    "description": "Económico.",
+    "listingUrl": "idealista.com/406",
+    "contactPhone": "+34640555666",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "parking",
+      "terrace",
+      "air conditioning",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Moncloa-Aravaca",
+    "price": 420000,
+    "currency": "EUR",
+    "areaSqm": 105,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Moncloa-Aravaca",
+      "neighborhood": "",
+      "address": "Aravaca"
+    },
+    "description": "Tranquilo.",
+    "listingUrl": "fotocasa.es/407",
+    "contactPhone": "+34640666777",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 4,
+    "extras": []
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Tetuán",
+    "price": 310000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Tetuán",
+      "neighborhood": "",
+      "address": "Tetuán, Madrid"
+    },
+    "description": "Cuzco.",
+    "listingUrl": "idealista.com/408",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "terrace",
+      "air conditioning",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Hortaleza",
+    "price": 380000,
+    "currency": "EUR",
+    "areaSqm": 95,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Hortaleza",
+      "neighborhood": "Ciudad Jardín",
+      "address": "Conde Orgaz"
+    },
+    "description": "Zonas comunes.",
+    "listingUrl": "fotocasa.es/409",
+    "contactPhone": "+34640777888",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 2,
+    "extras": [
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Latina",
+    "price": 190000,
+    "currency": "EUR",
+    "areaSqm": 70,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Latina",
+      "neighborhood": "La Latina",
+      "address": "Latina, Madrid"
+    },
+    "description": "Reformado.",
+    "listingUrl": "idealista.com/410",
+    "contactPhone": "+34640888999",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 2,
+    "extras": [
+      "elevator",
+      "storage unit",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Salamanca",
+    "price": 800000,
+    "currency": "EUR",
+    "areaSqm": 140,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Salamanca",
+      "neighborhood": "Lista",
+      "address": "Recoletos"
+    },
+    "description": "Premium.",
+    "listingUrl": "fotocasa.es/411",
+    "contactPhone": "+34640999000",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "pool",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Chamberí",
+    "price": 680000,
+    "currency": "EUR",
+    "areaSqm": 105,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Chamberí",
+      "neighborhood": "Trafalgar",
+      "address": "Chamberí, Madrid"
+    },
+    "description": "Diseño.",
+    "listingUrl": "idealista.com/412",
+    "contactPhone": "+34641000111",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 5,
+    "extras": [
+      "elevator",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Estudio en Centro",
+    "price": 250000,
+    "currency": "EUR",
+    "areaSqm": 45,
+    "rooms": 1,
+    "location": {
+      "city": "Madrid",
+      "district": "Centro",
+      "neighborhood": "Lavapiés",
+      "address": "Sol"
+    },
+    "description": "Corazón.",
+    "listingUrl": "fotocasa.es/413",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 6,
+    "extras": [
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Retiro",
+    "price": 810000,
+    "currency": "EUR",
+    "areaSqm": 150,
+    "rooms": 4,
+    "location": {
+      "city": "Madrid",
+      "district": "Retiro",
+      "neighborhood": "",
+      "address": "Retiro, Madrid"
+    },
+    "description": "Frente al parque.",
+    "listingUrl": "idealista.com/414",
+    "contactPhone": "+34641222333",
+    "images": [],
+    "bathrooms": 3,
+    "floor": 5,
+    "extras": [
+      "air conditioning"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Arganzuela",
+    "price": 370000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Arganzuela",
+      "neighborhood": "",
+      "address": "Legazpi"
+    },
+    "description": "Obra nueva.",
+    "listingUrl": "fotocasa.es/415",
+    "contactPhone": "+34641333444",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 6,
+    "extras": [
+      "parking",
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Carabanchel",
+    "price": 185000,
+    "currency": "EUR",
+    "areaSqm": 75,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Carabanchel",
+      "neighborhood": "Aluche",
+      "address": "Carabanchel, Madrid"
+    },
+    "description": "Bien comunicado.",
+    "listingUrl": "idealista.com/416",
+    "contactPhone": "+34641444555",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 2,
+    "extras": [
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Moncloa",
+    "price": 440000,
+    "currency": "EUR",
+    "areaSqm": 115,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Moncloa-Aravaca",
+      "neighborhood": "",
+      "address": "Arguelles"
+    },
+    "description": "Amplio.",
+    "listingUrl": "fotocasa.es/417",
+    "contactPhone": "+34641555666",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 1,
+    "extras": [
+      "elevator",
+      "storage unit",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Tetuán",
+    "price": 320000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Tetuán",
+      "neighborhood": "",
+      "address": "Tetuán, Madrid"
+    },
+    "description": "Exterior.",
+    "listingUrl": "idealista.com/418",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 2,
+    "extras": [
+      "elevator",
+      "air conditioning"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Hortaleza",
+    "price": 400000,
+    "currency": "EUR",
+    "areaSqm": 100,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Hortaleza",
+      "neighborhood": "Ciudad Jardín",
+      "address": "Sanchinarro"
+    },
+    "description": "",
+    "listingUrl": "fotocasa.es/419",
+    "contactPhone": "+34641777888",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 5,
+    "extras": [
+      "storage unit",
+      "terrace",
+      "air conditioning",
+      "pool"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Latina",
+    "price": 200000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Latina",
+      "neighborhood": "La Latina",
+      "address": "Latina, Madrid"
+    },
+    "description": "Luminoso.",
+    "listingUrl": "idealista.com/420",
+    "contactPhone": "+34641888999",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 1,
+    "extras": [
+      "parking"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Salamanca",
+    "price": 815000,
+    "currency": "EUR",
+    "areaSqm": 160,
+    "rooms": 4,
+    "location": {
+      "city": "Madrid",
+      "district": "Salamanca",
+      "neighborhood": "Goya",
+      "address": "Castellana"
+    },
+    "description": "Exclusivo.",
+    "listingUrl": "fotocasa.es/421",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 2,
+    "extras": [
+      "parking",
+      "storage unit",
+      "terrace"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Chamberí",
+    "price": 700000,
+    "currency": "EUR",
+    "areaSqm": 110,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Chamberí",
+      "neighborhood": "Almagro",
+      "address": "Chamberí, Madrid"
+    },
+    "description": "Amueblado.",
+    "listingUrl": "idealista.com/422",
+    "contactPhone": "+34642000111",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 5,
+    "extras": [
+      "storage unit",
+      "air conditioning",
+      "pool",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Centro",
+    "price": 280000,
+    "currency": "EUR",
+    "areaSqm": 60,
+    "rooms": 2,
+    "location": {
+      "city": "Madrid",
+      "district": "Centro",
+      "neighborhood": "Sol",
+      "address": "Malasaña"
+    },
+    "description": "Moderno.",
+    "listingUrl": "fotocasa.es/423",
+    "contactPhone": "+34642111222",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 6,
+    "extras": []
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Retiro",
+    "price": 790000,
+    "currency": "EUR",
+    "areaSqm": 135,
+    "rooms": 4,
+    "location": {
+      "city": "Madrid",
+      "district": "Retiro",
+      "neighborhood": "",
+      "address": "Retiro, Madrid"
+    },
+    "description": "Vistas.",
+    "listingUrl": "idealista.com/424",
+    "contactPhone": "+34642222333",
+    "images": [],
+    "bathrooms": 3,
+    "floor": 0,
+    "extras": [
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Arganzuela",
+    "price": 390000,
+    "currency": "EUR",
+    "areaSqm": 95,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Arganzuela",
+      "neighborhood": "",
+      "address": "Delicias"
+    },
+    "description": "Familiar.",
+    "listingUrl": "fotocasa.es/425",
+    "contactPhone": "+34642333444",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 5,
+    "extras": [
+      "parking",
+      "storage unit"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Carabanchel",
+    "price": 195000,
+    "currency": "EUR",
+    "areaSqm": 80,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Carabanchel",
+      "neighborhood": "Aluche",
+      "address": "Carabanchel, Madrid"
+    },
+    "description": "Amplio.",
+    "listingUrl": "idealista.com/426",
+    "contactPhone": "+34642444555",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 5,
+    "extras": [
+      "parking"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Moncloa",
+    "price": 460000,
+    "currency": "EUR",
+    "areaSqm": 125,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Moncloa-Aravaca",
+      "neighborhood": "",
+      "address": "Ciudad Universitaria"
+    },
+    "description": "Exterior.",
+    "listingUrl": "fotocasa.es/427",
+    "contactPhone": "+34642555666",
+    "images": [],
+    "bathrooms": 2,
+    "floor": 6,
+    "extras": [
+      "elevator",
+      "parking",
+      "air conditioning"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Tetuán",
+    "price": 340000,
+    "currency": "EUR",
+    "areaSqm": 90,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Tetuán",
+      "neighborhood": "",
+      "address": "Tetuán, Madrid"
+    },
+    "description": "Nuevo.",
+    "listingUrl": "idealista.com/428",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 4,
+    "extras": [
+      "elevator",
+      "parking",
+      "terrace",
+      "air conditioning"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Hortaleza",
+    "price": 410000,
+    "currency": "EUR",
+    "areaSqm": 105,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Hortaleza",
+      "neighborhood": "Ciudad Jardín",
+      "address": "Valdebebas"
+    },
+    "description": "Residencial.",
+    "listingUrl": "fotocasa.es/429",
+    "contactPhone": "+34642777888",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 1,
+    "extras": [
+      "parking",
+      "garden"
+    ]
+  },
+  {
+    "listingType": "sale",
+    "title": "Piso en Latina",
+    "price": 210000,
+    "currency": "EUR",
+    "areaSqm": 85,
+    "rooms": 3,
+    "location": {
+      "city": "Madrid",
+      "district": "Latina",
+      "neighborhood": "La Latina",
+      "address": "Latina, Madrid"
+    },
+    "description": "Cerca metro.",
+    "listingUrl": "idealista.com/430",
+    "contactPhone": "+34642888999",
+    "images": [],
+    "bathrooms": 1,
+    "floor": 5,
+    "extras": []
+  }
+]

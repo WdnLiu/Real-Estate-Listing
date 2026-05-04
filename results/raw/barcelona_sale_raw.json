@@ -1,0 +1,1233 @@
+[
+  {
+    "id": 201,
+    "title": "Piso en venta en Eixample",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 450000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 100,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 5
+    },
+    "address": {
+      "name": "Carrer de Mallorca, 5",
+      "district": {
+        "id": 5,
+        "name": "Eixample"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3944,
+        "longitude": 2.1614,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "La Sagrada Família"
+      }
+    },
+    "description": "Gran oportunidad.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/201"
+    },
+    "phone": "620111222"
+  },
+  {
+    "url": "idealista.com/202",
+    "title": "Piso en Gràcia",
+    "location": "Gràcia, Barcelona",
+    "price": 380000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "15 March",
+    "description": "A reformar.",
+    "features": {
+      "Basic features": [
+        "85 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "5th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia",
+      "contactPhone": "620222333"
+    },
+    "neighborhood": "Vila de Gràcia",
+    "address": {
+      "name": "Carrer de la Perla, 12"
+    }
+  },
+  {
+    "id": 203,
+    "title": "Casa en Sarrià",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "960.000 €",
+      "currencySuffix": ""
+    },
+    "features": {
+      "roomsNumber": 4,
+      "bathsNumber": 3,
+      "constructedArea": 200,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 3
+    },
+    "address": {
+      "name": "Carrer del Coll del Portell, 19",
+      "district": {
+        "id": 6,
+        "name": "Sarrià-Sant Gervasi"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4001,
+        "longitude": 2.1322,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Sarrià"
+      }
+    },
+    "description": "Exclusivo.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/203"
+    },
+    "phone": "620333444"
+  },
+  {
+    "url": "idealista.com/204",
+    "title": "Piso en Sants",
+    "location": "Sants-Montjuïc, Barcelona",
+    "price": 250000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "14 March",
+    "description": null,
+    "features": {
+      "Basic features": [
+        "70 m² built",
+        "2 bedrooms",
+        "1 bathroom",
+        "5th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "contactInfo": null,
+    "neighborhood": "Poble Sec",
+    "address": {
+      "name": "Carrer de Radas, 26"
+    }
+  },
+  {
+    "id": 205,
+    "title": "Piso en Nou Barris",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 210000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 1,
+      "constructedArea": 65,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 7
+    },
+    "address": {
+      "name": "Calle Mayor, 33",
+      "district": null,
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4411,
+        "longitude": 2.1733,
+        "isPrecise": false
+      },
+      "neighborhood": null
+    },
+    "description": "Económico.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/205"
+    }
+  },
+  {
+    "url": "idealista.com/206",
+    "title": "Piso en Sant Martí",
+    "location": "Sant Martí, Barcelona",
+    "price": 420000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "12 March",
+    "description": "Cerca del mar.",
+    "features": {
+      "Basic features": [
+        "100 m² built",
+        "3 bedrooms",
+        "2 bathrooms",
+        "2nd floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Particular",
+      "contactPhone": "620555666"
+    },
+    "neighborhood": "La Vila Olímpica",
+    "address": {
+      "name": "Carrer de Taulat, 40"
+    }
+  },
+  {
+    "id": 207,
+    "title": "Piso en Horta",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 280000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 85,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 1
+    },
+    "address": {
+      "name": "Passeig de Maragall, 47",
+      "district": {
+        "id": 7,
+        "name": "Horta-Guinardó"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4322,
+        "longitude": 2.1611,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Vistas.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/207"
+    },
+    "phone": "620666777"
+  },
+  {
+    "url": "idealista.com/208",
+    "title": "Piso en Les Corts",
+    "location": "Les Corts, Barcelona",
+    "price": 550000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "10 March",
+    "description": "Junto al estadio.",
+    "features": {
+      "Basic features": [
+        "110 m² built",
+        "4 bedrooms",
+        "2 bathrooms",
+        "2nd floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "neighborhood": "Pedralbes",
+    "address": {
+      "name": "Carrer del Doctor Carulla, 54"
+    }
+  },
+  {
+    "id": 209,
+    "title": "Piso en Ciutat Vella",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "320000",
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 1,
+      "constructedArea": 75,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 1
+    },
+    "address": {
+      "name": "Carrer de Sant Miquel, 61",
+      "district": {
+        "id": 1,
+        "name": "Ciutat Vella"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3811,
+        "longitude": 2.1722,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "La Barceloneta"
+      }
+    },
+    "description": "Inversión.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/209"
+    },
+    "phone": "620777888"
+  },
+  {
+    "url": "idealista.com/210",
+    "title": "Piso en Sant Andreu",
+    "location": "Sant Andreu, Barcelona",
+    "price": 290000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "9 March",
+    "description": "Reformado.",
+    "features": {
+      "Basic features": [
+        "80 m² built",
+        "3 bedrooms",
+        "2 bathrooms",
+        "3rd floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Inmo",
+      "contactPhone": "620888999"
+    },
+    "neighborhood": "",
+    "address": {
+      "name": "Carrer del Segre, 68"
+    }
+  },
+  {
+    "id": 211,
+    "title": "Piso en Eixample",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 600000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 4,
+      "bathsNumber": 2,
+      "constructedArea": 120,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 1
+    },
+    "address": {
+      "name": "Carrer de Mallorca, 75",
+      "district": {
+        "id": 5,
+        "name": "Eixample"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3955,
+        "longitude": 2.1622,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "La Sagrada Família"
+      }
+    },
+    "description": "Finca regia.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/211"
+    },
+    "phone": "620999000"
+  },
+  {
+    "url": "idealista.com/212",
+    "title": "Piso en Gràcia",
+    "location": "Gràcia, Barcelona",
+    "price": 410000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "8 March",
+    "description": "Luminoso.",
+    "features": {
+      "Basic features": [
+        "75 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "Ground floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Ana",
+      "contactPhone": "621000111"
+    },
+    "neighborhood": "Vila de Gràcia",
+    "address": {
+      "name": "Plaça del Diamant, 82"
+    }
+  },
+  {
+    "id": 213,
+    "title": "Piso en Sarrià",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 850000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 4,
+      "bathsNumber": 3,
+      "constructedArea": 160,
+      "hasTerrace": true,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 3
+    },
+    "address": {
+      "name": "Carrer de Muntaner, 89",
+      "district": {
+        "id": 6,
+        "name": "Sarrià-Sant Gervasi"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4011,
+        "longitude": 2.1333,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Sant Gervasi"
+      }
+    },
+    "description": "Alto standing.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/213"
+    }
+  },
+  {
+    "url": "idealista.com/214",
+    "title": "Piso en Sants",
+    "location": "Sants-Montjuïc, Barcelona",
+    "price": "270000€",
+    "currency": "€",
+    "operation": "sale",
+    "updated": "7 March",
+    "description": "Ideal parejas.",
+    "features": {
+      "Basic features": [
+        "75 m² built",
+        "3 bedrooms",
+        "2 bathrooms",
+        "1st floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "InmoSants",
+      "contactPhone": "621222333"
+    },
+    "neighborhood": "Poble Sec",
+    "address": {
+      "name": "Carrer de Tamarit, 96"
+    }
+  },
+  {
+    "id": 215,
+    "title": "Piso en Nou Barris",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 230000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 1,
+      "constructedArea": 80,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": true,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Passeig de Valldaura, 5",
+      "district": {
+        "id": 8,
+        "name": "Nou Barris"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4422,
+        "longitude": 2.1744,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Amplio.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/215"
+    },
+    "phone": "621333444"
+  },
+  {
+    "url": "idealista.com/216",
+    "title": "Piso en Sant Martí",
+    "location": "Sant Martí, Barcelona",
+    "price": 460000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "6 March",
+    "description": "Poblenou.",
+    "features": {
+      "Basic features": [
+        "95 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "6th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Mar",
+      "contactPhone": "621444555"
+    },
+    "neighborhood": "El Camp de l'Arpa",
+    "address": {
+      "name": "Carrer de Meridiana, 12"
+    }
+  },
+  {
+    "id": 217,
+    "title": "Piso en Horta",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 295000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 1,
+      "constructedArea": 85,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 8
+    },
+    "address": {
+      "name": "Carrer de l'Escorial, 19",
+      "district": {
+        "id": 7,
+        "name": "Horta-Guinardó"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4333,
+        "longitude": 2.1622,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "A reformar.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/217"
+    },
+    "phone": "621555666"
+  },
+  {
+    "url": "idealista.com/218",
+    "title": "Piso en Les Corts",
+    "location": "Les Corts, Barcelona",
+    "price": 520000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "5 March",
+    "description": "Perfecto estado.",
+    "features": {
+      "Basic features": [
+        "100 m² built",
+        "3 bedrooms",
+        "2 bathrooms",
+        "6th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": null,
+    "neighborhood": "Pedralbes",
+    "address": {
+      "name": "Carrer de Montevideo, 26"
+    }
+  },
+  {
+    "id": 219,
+    "title": "Piso en Ciutat Vella",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 350000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 1,
+      "constructedArea": 80,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 7
+    },
+    "address": {
+      "name": "Carrer del Carme, 33",
+      "district": {
+        "id": 1,
+        "name": "Ciutat Vella"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3822,
+        "longitude": 2.1733,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "El Raval"
+      }
+    },
+    "description": null,
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/219"
+    },
+    "phone": "621777888"
+  },
+  {
+    "url": "idealista.com/220",
+    "title": "Piso en Sant Andreu",
+    "location": "Sant Andreu, Barcelona",
+    "price": 310000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "4 March",
+    "description": "Luminoso.",
+    "features": {
+      "Basic features": [
+        "85 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "6th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia Sur",
+      "contactPhone": "621888999"
+    },
+    "neighborhood": "",
+    "address": {
+      "name": "Carrer de Virgili, 40"
+    }
+  },
+  {
+    "id": 221,
+    "title": "Piso en Eixample",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 550000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 110,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 5
+    },
+    "address": {
+      "name": "Calle Mayor, 47",
+      "district": null,
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3966,
+        "longitude": 2.1633,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Céntrico.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/221"
+    }
+  },
+  {
+    "url": "idealista.com/222",
+    "title": "Piso en Gràcia",
+    "location": "Gràcia, Barcelona",
+    "price": 430000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "3 March",
+    "description": "Amueblado.",
+    "features": {
+      "Basic features": [
+        "80 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "4th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Fitted wardrobes",
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Luis",
+      "contactPhone": "622000111"
+    },
+    "neighborhood": "Vila de Gràcia",
+    "address": {
+      "name": "Carrer de la Perla, 54"
+    }
+  },
+  {
+    "id": 223,
+    "title": "Piso en Sarrià",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 750000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 130,
+      "hasTerrace": false,
+      "hasParking": true,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 3
+    },
+    "address": {
+      "name": "Carrer de Santaló, 61",
+      "district": {
+        "id": 6,
+        "name": "Sarrià-Sant Gervasi"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4022,
+        "longitude": 2.1344,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "Sant Gervasi"
+      }
+    },
+    "description": "Tranquilo.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/223"
+    },
+    "phone": "622111222"
+  },
+  {
+    "url": "idealista.com/224",
+    "title": "Piso en Sants",
+    "location": "Sants-Montjuïc, Barcelona",
+    "price": 280000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "2 March",
+    "description": "Buena zona.",
+    "features": {
+      "Basic features": [
+        "75 m² built",
+        "2 bedrooms",
+        "2 bathrooms",
+        "5th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Air conditioning"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Bcn Rentals",
+      "contactPhone": "622222333"
+    },
+    "neighborhood": "Poble Sec",
+    "address": {
+      "name": "Carrer de Radas, 68"
+    }
+  },
+  {
+    "id": 225,
+    "title": "Piso en Nou Barris",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": "240000 €",
+      "currencySuffix": ""
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 1,
+      "constructedArea": 82,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": true,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 4
+    },
+    "address": {
+      "name": "Carrer de Viladrosa, 75",
+      "district": {
+        "id": 8,
+        "name": "Nou Barris"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4433,
+        "longitude": 2.1755,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Soleado.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/225"
+    },
+    "phone": "622333444"
+  },
+  {
+    "url": "idealista.com/226",
+    "title": "Piso en Sant Martí",
+    "location": "Sant Martí, Barcelona",
+    "price": 480000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "1 March",
+    "description": "Moderno.",
+    "features": {
+      "Basic features": [
+        "100 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "6th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Air conditioning",
+        "Terrace"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Agencia Mar",
+      "contactPhone": "622444555"
+    },
+    "neighborhood": "Poblenou",
+    "address": {
+      "name": "Carrer de Pere IV, 82"
+    }
+  },
+  {
+    "id": 227,
+    "title": "Piso en Horta",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 305000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 3,
+      "bathsNumber": 2,
+      "constructedArea": 90,
+      "hasTerrace": false,
+      "hasParking": false,
+      "hasElevator": true,
+      "hasStorageUnit": false,
+      "hasAirConditioning": false,
+      "hasPool": false,
+      "hasGarden": true,
+      "floorNumber": 2
+    },
+    "address": {
+      "name": "Passeig de Maragall, 89",
+      "district": {
+        "id": 7,
+        "name": "Horta-Guinardó"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.4344,
+        "longitude": 2.1633,
+        "isPrecise": true
+      },
+      "neighborhood": null
+    },
+    "description": "Vistas ciudad.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/227"
+    },
+    "phone": "622555666"
+  },
+  {
+    "url": "idealista.com/228",
+    "title": "Piso en Les Corts",
+    "location": "Les Corts, Barcelona",
+    "price": 580000,
+    "currency": "€",
+    "operation": "sale",
+    "updated": "28 Feb",
+    "description": "Zona premium.",
+    "features": {
+      "Basic features": [
+        "120 m² built",
+        "4 bedrooms",
+        "3 bathrooms",
+        "7th floor"
+      ],
+      "Building": [
+        "With lift"
+      ],
+      "Amenities": [
+        "Storage room",
+        "Private garden"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": null,
+    "neighborhood": "Pedralbes",
+    "address": {
+      "name": "Avinguda de Pedralbes, 96"
+    }
+  },
+  {
+    "id": 229,
+    "title": "Piso en Ciutat Vella",
+    "transaction": "sale",
+    "propertyType": "flat",
+    "priceInfo": {
+      "amount": 360000,
+      "currencySuffix": "€"
+    },
+    "features": {
+      "roomsNumber": 2,
+      "bathsNumber": 1,
+      "constructedArea": 85,
+      "hasTerrace": true,
+      "hasParking": false,
+      "hasElevator": false,
+      "hasStorageUnit": false,
+      "hasAirConditioning": true,
+      "hasPool": false,
+      "hasGarden": false,
+      "floorNumber": 7
+    },
+    "address": {
+      "name": "Carrer del Carme, 5",
+      "district": {
+        "id": 1,
+        "name": "Ciutat Vella"
+      },
+      "municipality": {
+        "id": 8019,
+        "name": "Barcelona"
+      },
+      "coordinates": {
+        "latitude": 41.3833,
+        "longitude": 2.1744,
+        "isPrecise": true
+      },
+      "neighborhood": {
+        "name": "El Raval"
+      }
+    },
+    "description": "Histórico.",
+    "multimedia": {
+      "images": []
+    },
+    "detail": {
+      "url": "fotocasa.es/229"
+    },
+    "phone": "622777888"
+  },
+  {
+    "url": "idealista.com/230",
+    "title": "Piso en Sant Andreu",
+    "location": "Sant Andreu, Barcelona",
+    "price": "320000",
+    "currency": "€",
+    "operation": "sale",
+    "updated": "27 Feb",
+    "description": "Cerca metro.",
+    "features": {
+      "Basic features": [
+        "90 m² built",
+        "3 bedrooms",
+        "1 bathroom",
+        "8th floor"
+      ],
+      "Building": [
+        "exterior"
+      ],
+      "Amenities": [
+        "Swimming pool"
+      ]
+    },
+    "images": {},
+    "plans": [],
+    "contactInfo": {
+      "contactName": "Fincas",
+      "contactPhone": "622888999"
+    },
+    "neighborhood": "",
+    "address": {
+      "name": "Carrer del Segre, 12"
+    }
+  }
+]
