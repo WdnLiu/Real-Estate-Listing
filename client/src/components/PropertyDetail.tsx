@@ -67,7 +67,7 @@ export default function PropertyDetail({ id, onBack }: Props) {
         <div className="card-actions">
           {contactPhone && <a href={`tel:${contactPhone}`}>{contactPhone}</a>}
           {listingUrl && (
-            <a href={listingUrl} target="_blank" rel="noreferrer">
+            <a href={listingUrl.startsWith('http') ? listingUrl : `https://${listingUrl}`} target="_blank" rel="noreferrer">
               View original listing ↗
             </a>
           )}

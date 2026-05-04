@@ -10,3 +10,5 @@ src/generated/
 client/dist/
 test.db
 test.db-journal
+prisma/*.db
+prisma/*.db-journal
