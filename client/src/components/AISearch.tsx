@@ -127,7 +127,14 @@ export default function AISearch({ listingType, onFiltersApplied, resultCount }:
   return (
     <div className="ai-chat">
       {messages.length === 0 ? (
-        <p className="ai-chat-empty">Ask anything — "cheap 2-bed near Gràcia", "spacious flat with parking in Madrid"…</p>
+        <p className="ai-chat-empty">
+          Ask anything — "cheap 2-bed near Gràcia", "spacious flat with parking in Madrid"…
+          <br /><br />
+          <span className="ai-chat-hint">
+            You are currently searching <strong>{listingType === 'rent' ? 'rentals' : 'properties for sale'}</strong>.
+            Switch to the <strong>{listingType === 'rent' ? 'For Sale' : 'For Rent'}</strong> tab to search for {listingType === 'rent' ? 'properties to buy' : 'properties to rent'}.
+          </span>
+        </p>
       ) : (
         <div className="ai-chat-messages">
           {messages.map((m, i) => (

@@ -56,4 +56,6 @@ The AI chat has no awareness of listing prices in context, mapping adjectives li
 
 **Live scraper.** A Playwright-based scraper with rate limiting, proxy rotation, and incremental change detection would make the platform self-sustaining and keep listings current.
 
+**Automatic tab switching.** The AI chat is scoped to whichever tab is active when the conversation starts. A user asking "I want to buy a flat in Eixample" while on the For Rent tab will get no results. Detecting buy/rent intent from the first message and switching the active tab automatically would remove this friction entirely.
+
 **Saved searches and alerts.** Each chat conversation naturally produces a validated filter state. Persisting that state and running it nightly against new listings, then notifying the user by email, would turn a one-off search into a continuous discovery loop.
