@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+enum ListingType {
+  rent
+  sale
+}
+
+model Property {
+  id           Int             @id @default(autoincrement())
+  listingType  ListingType
+  title        String
+  price        Float
+  currency     String          @default("EUR")
+  areaSqm      Float
+  rooms        Int
+  bathrooms    Int             @default(1)
+  floor        Int?
+  hasElevator  Boolean         @default(false)
+  extras       Extra[]
+  description  String
+  contentHash  String          @unique
+  listingUrl   String?
+  contactPhone String?
+  images          PropertyImage[]
+  location        Location         @relation(fields: [locationId], references: [id])
+  locationId      Int              @unique
+  contactRequests ContactRequest[]
+  offers          Offer[]
+  createdAt       DateTime         @default(now())
+}
+
+model Extra {
+  id         Int      @id @default(autoincrement())
+  name       String
+  property   Property @relation(fields: [propertyId], references: [id])
+  propertyId Int
+}
+
+model PropertyImage {
+  id         Int      @id @default(autoincrement())
+  url        String
+  isPrimary  Boolean  @default(false)
+  order      Int      @default(0)
+  property   Property @relation(fields: [propertyId], references: [id])
+  propertyId Int
+}
+
+model Location {
+  id           Int      @id @default(autoincrement())
+  city         String
+  district     String?
+  neighborhood String?
+  address      String
+  property     Property?
+}
+
+model ContactRequest {
+  id         Int      @id @default(autoincrement())
+  propertyId Int
+  property   Property @relation(fields: [propertyId], references: [id])
+  name       String
+  email      String
+  type       String
+  message    String?
+  visitDate  String?
+  createdAt  DateTime @default(now())
+}
+
+model Offer {
+  id         Int      @id @default(autoincrement())
+  propertyId Int
+  property   Property @relation(fields: [propertyId], references: [id])
+  name       String
+  email      String
+  amount     Float
+  note       String?
+  createdAt  DateTime @default(now())
+}
