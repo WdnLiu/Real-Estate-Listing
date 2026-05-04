@@ -1,6 +1,6 @@
 # Real Estate Listings
 
-A full-stack property listings platform with AI-powered natural language search.
+A full-stack property listings platform with AI-powered natural language search. Design decisions and reasoning can be found in [REASONING.md](./REASONING.md).
 
 ## Tech stack
 
@@ -47,16 +47,6 @@ Both paths go through Gemini and terminate at `ExtractedPropertySchema.safeParse
 ## AI search
 
 The chat interface posts the full conversation history to `POST /api/search/ai`. The backend sends it to Gemini with a fixed system prompt as `systemInstruction`, streams the response back via SSE, and extracts a `<FILTERS>` JSON block from the completed response to update the UI filters automatically.
-
-## API endpoints
-
-| Method | Path | Description |
-|---|---|---|
-| GET | `/api/properties` | Paginated listings with filters |
-| GET | `/api/properties/:id` | Single property detail |
-| POST | `/api/properties/:id/contact` | Submit a contact or visit request |
-| POST | `/api/properties/:id/offers` | Submit an offer |
-| POST | `/api/search/ai` | AI chat search (SSE) |
 
 ## Example scenarios
 
