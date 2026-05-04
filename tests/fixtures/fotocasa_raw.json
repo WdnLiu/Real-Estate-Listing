@@ -1,0 +1,33 @@
+{
+  "transaction": "rent",
+  "title": "Luminoso piso en el corazón del Eixample",
+  "priceInfo": { "amount": 1250 },
+  "features": {
+    "constructedArea": 85,
+    "roomsNumber": 3,
+    "bathsNumber": 2,
+    "floorNumber": 4,
+    "hasElevator": true,
+    "hasParking": false,
+    "hasStorageUnit": true,
+    "hasTerrace": false,
+    "hasAirConditioning": true,
+    "hasPool": false,
+    "hasGarden": false
+  },
+  "address": {
+    "name": "Carrer de Provença, 312",
+    "municipality": { "name": "Barcelona" },
+    "district": { "name": "Eixample" },
+    "neighborhood": { "name": "La Sagrada Família" }
+  },
+  "description": "Precioso piso reformado en pleno Eixample barcelonés con tres amplias habitaciones y dos baños completos.",
+  "detail": { "url": "https://fotocasa.es/listing/12345" },
+  "phone": "+34 612 345 678",
+  "multimedia": {
+    "images": [
+      { "url": "https://example.com/img/salon.jpg" },
+      { "url": "https://example.com/img/cocina.jpg" }
+    ]
+  }
+}
